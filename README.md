@@ -1,7 +1,5 @@
 # SCURM火锅战队 24赛季哨兵导航
 
-For docker guidence, please read [DevcontainterGuide](./DevcontainterGuide.md)
-
 ## 包说明
 
 | Package Name | Description |
@@ -29,9 +27,12 @@ pull the image from dockerhub and run it:
 ```bash
 docker pull polarisxq/scurm:nav_tutorial
 
+# for windows user
 docker run --gpus all -dit --ipc=host --net=host --privileged -e DISPLAY=host.docker.internal:0.0 -e NVIDIA_DRIVER_CAPABILITIES=all polarisxq/scurm:nav_tutorial
-
 # use XLaunch to open the GUI
+
+# for linux user
+sudo xhost + && sudo docker run -dit --network=host --pid=host --privileged -v /dev:/dev -e DISPLAY=${DISPLAY} polarisxq/scurm:nav_tutorial
 ```
 
 Code inside the image is not always the latest version, please run `git pull` inside the container under the folder `\home\sentry_ws\src` to update, then re-complie the workspace.
@@ -81,7 +82,7 @@ ros2 run nav2_map_server map_saver_cli -t /projected_map -f test_map --fmt png
 ros2 service call /map_save std_srvs/srv/Trigger
 ```
 
-6. close all the nodes and restart the simulation
+6. close all the nodes and then, restart the simulation
 
 ```bash
 ros2 launch pb_rm_simulation rm_simulation.launch.py
