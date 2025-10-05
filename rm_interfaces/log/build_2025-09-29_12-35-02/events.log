@@ -1,0 +1,407 @@
+[0.000000] (-) TimerEvent: {}
+[0.000428] (rm_interfaces) JobQueued: {'identifier': 'rm_interfaces', 'dependencies': OrderedDict()}
+[0.000476] (rm_interfaces) JobStarted: {'identifier': 'rm_interfaces'}
+[0.013643] (rm_interfaces) JobProgress: {'identifier': 'rm_interfaces', 'progress': 'cmake'}
+[0.013860] (rm_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/sentry_ws/src/rm_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sentry_ws/src/rm_interfaces/install/rm_interfaces'], 'cwd': '/home/sentry_ws/src/rm_interfaces/build/rm_interfaces', 'env': OrderedDict([('HOSTNAME', 'ubuntu20'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sentry_ws/install/livox_ros_driver2/lib:/home/sentry_ws/install/costmap_intensity/lib:/home/sentry_ws/install/behaviortree_cpp/lib:/home/sentry_ws/install/behavior_ext_plugins/lib:/home/sentry_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/root'), ('OLDPWD', '/home/sentry_ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('rm_interfaces_DIR', '/home/sentry_ws/src/rm_interfaces'), ('COLCON_PREFIX_PATH', '/home/sentry_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/sentry_ws/install/behaviortree_cpp/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sentry_ws/install/sentry_bringup:/home/sentry_ws/install/pb_rm_simulation:/home/sentry_ws/install/livox_ros_driver2:/home/sentry_ws/install/costmap_intensity:/home/sentry_ws/install/control_panel:/home/sentry_ws/install/behaviortree_cpp:/home/sentry_ws/install/behavior_ext_plugins:/home/sentry_ws/install/auto_aim_interfaces:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/sentry_ws/src/rm_interfaces/build/rm_interfaces'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/sentry_ws/build/control_panel:/home/sentry_ws/install/control_panel/lib/python3.10/site-packages:/home/sentry_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sentry_ws/src/rm_interfaces:/home/sentry_ws/install/sentry_bringup:/home/sentry_ws/install/pb_rm_simulation:/home/sentry_ws/install/livox_ros_driver2:/home/sentry_ws/install/costmap_intensity:/home/sentry_ws/install/behaviortree_cpp:/home/sentry_ws/install/behavior_ext_plugins:/home/sentry_ws/install/auto_aim_interfaces:/home/sentry_ws/install/control_panel:/opt/ros/humble')]), 'shell': False}
+[0.085349] (rm_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099223] (-) TimerEvent: {}
+[0.151212] (rm_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.158969] (rm_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199356] (-) TimerEvent: {}
+[0.244855] (rm_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.255049] (rm_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.255219] (rm_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.255328] (rm_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.257258] (rm_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299517] (-) TimerEvent: {}
+[0.357741] (rm_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.367821] (rm_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.368178] (rm_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.368404] (rm_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.372794] (rm_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399625] (-) TimerEvent: {}
+[0.499924] (-) TimerEvent: {}
+[0.532290] (rm_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.579698] (rm_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.600043] (-) TimerEvent: {}
+[0.638824] (rm_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.643769] (rm_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.655751] (rm_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.700173] (-) TimerEvent: {}
+[0.707489] (rm_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.750519] (rm_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.800639] (-) TimerEvent: {}
+[0.804695] (rm_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.838322] (rm_interfaces) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.900787] (-) TimerEvent: {}
+[1.001178] (-) TimerEvent: {}
+[1.101494] (-) TimerEvent: {}
+[1.181605] (rm_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.201604] (-) TimerEvent: {}
+[1.301902] (-) TimerEvent: {}
+[1.402210] (-) TimerEvent: {}
+[1.421794] (rm_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.502330] (-) TimerEvent: {}
+[1.602644] (-) TimerEvent: {}
+[1.702962] (-) TimerEvent: {}
+[1.747132] (rm_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.770474] (rm_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.774278] (rm_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.803090] (-) TimerEvent: {}
+[1.804724] (rm_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.804986] (rm_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.805100] (rm_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.805204] (rm_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.822770] (rm_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.901104] (rm_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.903191] (-) TimerEvent: {}
+[1.941805] (rm_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.944353] (rm_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/sentry_ws/src/rm_interfaces/build/rm_interfaces\n'}
+[1.952896] (rm_interfaces) CommandEnded: {'returncode': 0}
+[1.953530] (rm_interfaces) JobProgress: {'identifier': 'rm_interfaces', 'progress': 'build'}
+[1.954533] (rm_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sentry_ws/src/rm_interfaces/build/rm_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/sentry_ws/src/rm_interfaces/build/rm_interfaces', 'env': OrderedDict([('HOSTNAME', 'ubuntu20'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sentry_ws/install/livox_ros_driver2/lib:/home/sentry_ws/install/costmap_intensity/lib:/home/sentry_ws/install/behaviortree_cpp/lib:/home/sentry_ws/install/behavior_ext_plugins/lib:/home/sentry_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/root'), ('OLDPWD', '/home/sentry_ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('rm_interfaces_DIR', '/home/sentry_ws/src/rm_interfaces'), ('COLCON_PREFIX_PATH', '/home/sentry_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/sentry_ws/install/behaviortree_cpp/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sentry_ws/install/sentry_bringup:/home/sentry_ws/install/pb_rm_simulation:/home/sentry_ws/install/livox_ros_driver2:/home/sentry_ws/install/costmap_intensity:/home/sentry_ws/install/control_panel:/home/sentry_ws/install/behaviortree_cpp:/home/sentry_ws/install/behavior_ext_plugins:/home/sentry_ws/install/auto_aim_interfaces:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/sentry_ws/src/rm_interfaces/build/rm_interfaces'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/sentry_ws/build/control_panel:/home/sentry_ws/install/control_panel/lib/python3.10/site-packages:/home/sentry_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sentry_ws/src/rm_interfaces:/home/sentry_ws/install/sentry_bringup:/home/sentry_ws/install/pb_rm_simulation:/home/sentry_ws/install/livox_ros_driver2:/home/sentry_ws/install/costmap_intensity:/home/sentry_ws/install/behaviortree_cpp:/home/sentry_ws/install/behavior_ext_plugins:/home/sentry_ws/install/auto_aim_interfaces:/home/sentry_ws/install/control_panel:/opt/ros/humble')]), 'shell': False}
+[2.003334] (-) TimerEvent: {}
+[2.008842] (rm_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.017687] (rm_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.024299] (rm_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_rm_interfaces\n'}
+[2.103431] (-) TimerEvent: {}
+[2.203693] (-) TimerEvent: {}
+[2.207495] (rm_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.208053] (rm_interfaces) StdoutLine: {'line': b'creating rm_interfaces.egg-info\n'}
+[2.208254] (rm_interfaces) StdoutLine: {'line': b'writing rm_interfaces.egg-info/PKG-INFO\n'}
+[2.208474] (rm_interfaces) StdoutLine: {'line': b'writing dependency_links to rm_interfaces.egg-info/dependency_links.txt\n'}
+[2.208655] (rm_interfaces) StdoutLine: {'line': b'writing top-level names to rm_interfaces.egg-info/top_level.txt\n'}
+[2.208865] (rm_interfaces) StdoutLine: {'line': b"writing manifest file 'rm_interfaces.egg-info/SOURCES.txt'\n"}
+[2.210596] (rm_interfaces) StdoutLine: {'line': b"reading manifest file 'rm_interfaces.egg-info/SOURCES.txt'\n"}
+[2.211001] (rm_interfaces) StdoutLine: {'line': b"writing manifest file 'rm_interfaces.egg-info/SOURCES.txt'\n"}
+[2.236680] (rm_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_rm_interfaces_egg\n'}
+[2.303817] (-) TimerEvent: {}
+[2.404136] (-) TimerEvent: {}
+[2.504486] (-) TimerEvent: {}
+[2.522342] (rm_interfaces) StdoutLine: {'line': b'[  2%] Built target rm_interfaces__cpp\n'}
+[2.532842] (rm_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.533102] (rm_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.533221] (rm_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.544954] (rm_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/gimbal_cmd__functions.c.o\x1b[0m\n'}
+[2.545224] (rm_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/chassis_cmd__functions.c.o\x1b[0m\n'}
+[2.545315] (rm_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/gimbal__functions.c.o\x1b[0m\n'}
+[2.545437] (rm_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/game_state__functions.c.o\x1b[0m\n'}
+[2.545661] (rm_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/shoot_cmd__functions.c.o\x1b[0m\n'}
+[2.548135] (rm_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/sentry_cmd__functions.c.o\x1b[0m\n'}
+[2.600828] (rm_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library librm_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.604580] (-) TimerEvent: {}
+[2.654648] (rm_interfaces) StdoutLine: {'line': b'[ 16%] Built target rm_interfaces__rosidl_generator_c\n'}
+[2.667374] (rm_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.668378] (rm_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.671760] (rm_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.704682] (-) TimerEvent: {}
+[2.805012] (-) TimerEvent: {}
+[2.905323] (-) TimerEvent: {}
+[2.956934] (rm_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/shoot_cmd__type_support.cpp.o\x1b[0m\n'}
+[2.957123] (rm_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/gimbal__type_support.cpp.o\x1b[0m\n'}
+[2.958019] (rm_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/game_state__type_support.cpp.o\x1b[0m\n'}
+[2.958159] (rm_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/sentry_cmd__type_support.cpp.o\x1b[0m\n'}
+[2.958241] (rm_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/chassis_cmd__type_support.cpp.o\x1b[0m\n'}
+[2.958629] (rm_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/gimbal_cmd__type_support.cpp.o\x1b[0m\n'}
+[3.005419] (-) TimerEvent: {}
+[3.022712] (rm_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/gimbal__type_support.cpp.o\x1b[0m\n'}
+[3.022922] (rm_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/game_state__type_support.cpp.o\x1b[0m\n'}
+[3.023803] (rm_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/sentry_cmd__type_support.cpp.o\x1b[0m\n'}
+[3.025383] (rm_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/chassis_cmd__type_support.cpp.o\x1b[0m\n'}
+[3.029061] (rm_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/gimbal_cmd__type_support.cpp.o\x1b[0m\n'}
+[3.034937] (rm_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/shoot_cmd__type_support.cpp.o\x1b[0m\n'}
+[3.105552] (-) TimerEvent: {}
+[3.206089] (-) TimerEvent: {}
+[3.298786] (rm_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.303679] (rm_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/game_state__type_support.cpp.o\x1b[0m\n'}
+[3.306195] (-) TimerEvent: {}
+[3.308799] (rm_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/game_state__type_support.cpp.o\x1b[0m\n'}
+[3.322583] (rm_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/sentry_cmd__type_support.cpp.o\x1b[0m\n'}
+[3.322889] (rm_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/sentry_cmd__type_support.cpp.o\x1b[0m\n'}
+[3.324260] (rm_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/chassis_cmd__type_support.cpp.o\x1b[0m\n'}
+[3.326545] (rm_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/chassis_cmd__type_support.cpp.o\x1b[0m\n'}
+[3.337892] (rm_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/gimbal__type_support.cpp.o\x1b[0m\n'}
+[3.350596] (rm_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/game_state__type_support_c.cpp.o\x1b[0m\n'}
+[3.351678] (rm_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/game_state__type_support.c.o\x1b[0m\n'}
+[3.363454] (rm_interfaces) StdoutLine: {'line': b'[ 52%] Built target rm_interfaces__rosidl_typesupport_cpp\n'}
+[3.363761] (rm_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/sentry_cmd__type_support.c.o\x1b[0m\n'}
+[3.367558] (rm_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/shoot_cmd__type_support.cpp.o\x1b[0m\n'}
+[3.367805] (rm_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/gimbal_cmd__type_support.cpp.o\x1b[0m\n'}
+[3.377350] (rm_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/sentry_cmd__type_support_c.cpp.o\x1b[0m\n'}
+[3.387133] (rm_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/chassis_cmd__type_support_c.cpp.o\x1b[0m\n'}
+[3.406314] (-) TimerEvent: {}
+[3.420793] (rm_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.429900] (rm_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/gimbal__type_support_c.cpp.o\x1b[0m\n'}
+[3.441409] (rm_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/chassis_cmd__type_support.c.o\x1b[0m\n'}
+[3.456612] (rm_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/gimbal__type_support.c.o\x1b[0m\n'}
+[3.483310] (rm_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/gimbal_cmd__type_support.c.o\x1b[0m\n'}
+[3.490501] (rm_interfaces) StdoutLine: {'line': b'[ 66%] Built target rm_interfaces__rosidl_typesupport_c\n'}
+[3.506428] (-) TimerEvent: {}
+[3.507227] (rm_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/gimbal__type_support.cpp.o\x1b[0m\n'}
+[3.507817] (rm_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/gimbal_cmd__type_support_c.cpp.o\x1b[0m\n'}
+[3.510847] (rm_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/shoot_cmd__type_support_c.cpp.o\x1b[0m\n'}
+[3.512034] (rm_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/shoot_cmd__type_support.c.o\x1b[0m\n'}
+[3.514776] (rm_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/shoot_cmd__type_support.cpp.o\x1b[0m\n'}
+[3.515050] (rm_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/gimbal_cmd__type_support.cpp.o\x1b[0m\n'}
+[3.520927] (rm_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.560884] (rm_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking C shared library librm_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.606557] (-) TimerEvent: {}
+[3.616665] (rm_interfaces) StdoutLine: {'line': b'[ 77%] Built target rm_interfaces__rosidl_typesupport_introspection_c\n'}
+[3.638655] (rm_interfaces) StdoutLine: {'line': b'[ 77%] Built target rm_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.706684] (-) TimerEvent: {}
+[3.807676] (-) TimerEvent: {}
+[3.890636] (rm_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.907807] (-) TimerEvent: {}
+[3.934261] (rm_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.977304] (rm_interfaces) StdoutLine: {'line': b'[ 80%] Built target rm_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[4.007948] (-) TimerEvent: {}
+[4.018241] (rm_interfaces) StdoutLine: {'line': b'[ 80%] Built target rm_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.050666] (rm_interfaces) StdoutLine: {'line': b'[ 80%] Built target rm_interfaces\n'}
+[4.086608] (rm_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.108465] (-) TimerEvent: {}
+[4.208783] (-) TimerEvent: {}
+[4.309098] (-) TimerEvent: {}
+[4.409437] (-) TimerEvent: {}
+[4.509746] (-) TimerEvent: {}
+[4.610051] (-) TimerEvent: {}
+[4.710351] (-) TimerEvent: {}
+[4.810722] (-) TimerEvent: {}
+[4.869962] (rm_interfaces) StdoutLine: {'line': b'[ 81%] Built target rm_interfaces__py\n'}
+[4.896248] (rm_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_gimbal_s.c.o\x1b[0m\n'}
+[4.896473] (rm_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_chassis_cmd_s.c.o\x1b[0m\n'}
+[4.896609] (rm_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_gimbal_cmd_s.c.o\x1b[0m\n'}
+[4.896678] (rm_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_sentry_cmd_s.c.o\x1b[0m\n'}
+[4.898236] (rm_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_game_state_s.c.o\x1b[0m\n'}
+[4.899766] (rm_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_shoot_cmd_s.c.o\x1b[0m\n'}
+[4.910844] (-) TimerEvent: {}
+[4.986005] (rm_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rm_interfaces/librm_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[5.010954] (-) TimerEvent: {}
+[5.040500] (rm_interfaces) StdoutLine: {'line': b'[ 91%] Built target rm_interfaces__rosidl_generator_py\n'}
+[5.063547] (rm_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.064480] (rm_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.075286] (rm_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.111078] (-) TimerEvent: {}
+[5.161114] (rm_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.161471] (rm_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.172886] (rm_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.204012] (rm_interfaces) StdoutLine: {'line': b'[100%] Built target rm_interfaces__rosidl_typesupport_c__pyext\n'}
+[5.206899] (rm_interfaces) StdoutLine: {'line': b'[100%] Built target rm_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.211155] (-) TimerEvent: {}
+[5.219503] (rm_interfaces) StdoutLine: {'line': b'[100%] Built target rm_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[5.235928] (rm_interfaces) CommandEnded: {'returncode': 0}
+[5.311293] (-) TimerEvent: {}
+[5.411636] (-) TimerEvent: {}
+[5.512016] (-) TimerEvent: {}
+[5.523688] (rm_interfaces) JobProgress: {'identifier': 'rm_interfaces', 'progress': 'install'}
+[5.539227] (rm_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sentry_ws/src/rm_interfaces/build/rm_interfaces'], 'cwd': '/home/sentry_ws/src/rm_interfaces/build/rm_interfaces', 'env': OrderedDict([('HOSTNAME', 'ubuntu20'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sentry_ws/install/livox_ros_driver2/lib:/home/sentry_ws/install/costmap_intensity/lib:/home/sentry_ws/install/behaviortree_cpp/lib:/home/sentry_ws/install/behavior_ext_plugins/lib:/home/sentry_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/root'), ('OLDPWD', '/home/sentry_ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('rm_interfaces_DIR', '/home/sentry_ws/src/rm_interfaces'), ('COLCON_PREFIX_PATH', '/home/sentry_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/sentry_ws/install/behaviortree_cpp/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sentry_ws/install/sentry_bringup:/home/sentry_ws/install/pb_rm_simulation:/home/sentry_ws/install/livox_ros_driver2:/home/sentry_ws/install/costmap_intensity:/home/sentry_ws/install/control_panel:/home/sentry_ws/install/behaviortree_cpp:/home/sentry_ws/install/behavior_ext_plugins:/home/sentry_ws/install/auto_aim_interfaces:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/sentry_ws/src/rm_interfaces/build/rm_interfaces'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/sentry_ws/build/control_panel:/home/sentry_ws/install/control_panel/lib/python3.10/site-packages:/home/sentry_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sentry_ws/src/rm_interfaces:/home/sentry_ws/install/sentry_bringup:/home/sentry_ws/install/pb_rm_simulation:/home/sentry_ws/install/livox_ros_driver2:/home/sentry_ws/install/costmap_intensity:/home/sentry_ws/install/behaviortree_cpp:/home/sentry_ws/install/behavior_ext_plugins:/home/sentry_ws/install/auto_aim_interfaces:/home/sentry_ws/install/control_panel:/opt/ros/humble')]), 'shell': False}
+[5.552043] (rm_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.552531] (rm_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.552843] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/ament_index/resource_index/rosidl_interfaces/rm_interfaces\n'}
+[5.568920] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/chassis_cmd.h\n'}
+[5.577532] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__functions.h\n'}
+[5.586881] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__struct.h\n'}
+[5.595306] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__type_support.h\n'}
+[5.607154] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__functions.h\n'}
+[5.612132] (-) TimerEvent: {}
+[5.616952] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__struct.h\n'}
+[5.625449] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__type_support.h\n'}
+[5.640223] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__functions.h\n'}
+[5.649724] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__struct.h\n'}
+[5.664022] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__type_support.h\n'}
+[5.678982] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__functions.h\n'}
+[5.694603] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__struct.h\n'}
+[5.708406] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__type_support.h\n'}
+[5.712227] (-) TimerEvent: {}
+[5.718256] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__functions.h\n'}
+[5.731900] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__struct.h\n'}
+[5.747471] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__type_support.h\n'}
+[5.761235] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__functions.h\n'}
+[5.772268] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__struct.h\n'}
+[5.782000] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__type_support.h\n'}
+[5.795894] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/game_state.h\n'}
+[5.805308] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal.h\n'}
+[5.812323] (-) TimerEvent: {}
+[5.814402] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal_cmd.h\n'}
+[5.826514] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.840311] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/sentry_cmd.h\n'}
+[5.851958] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/shoot_cmd.h\n'}
+[5.863586] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/environment/library_path.sh\n'}
+[5.874858] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/environment/library_path.dsv\n'}
+[5.887879] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[5.897390] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__rosidl_typesupport_fastrtps_c.h\n'}
+[5.906178] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__rosidl_typesupport_fastrtps_c.h\n'}
+[5.912477] (-) TimerEvent: {}
+[5.916698] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[5.929788] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[5.944058] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[5.958993] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.968246] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__rosidl_typesupport_introspection_c.h\n'}
+[5.976463] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__rosidl_typesupport_introspection_c.h\n'}
+[5.985714] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__rosidl_typesupport_introspection_c.h\n'}
+[5.994789] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_c.h\n'}
+[6.004368] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__rosidl_typesupport_introspection_c.h\n'}
+[6.012571] (-) TimerEvent: {}
+[6.013154] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__rosidl_typesupport_introspection_c.h\n'}
+[6.026170] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.041276] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/chassis_cmd.hpp\n'}
+[6.056257] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__builder.hpp\n'}
+[6.065314] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__struct.hpp\n'}
+[6.074399] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__traits.hpp\n'}
+[6.087873] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__builder.hpp\n'}
+[6.096451] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__struct.hpp\n'}
+[6.106403] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__traits.hpp\n'}
+[6.112659] (-) TimerEvent: {}
+[6.115526] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__builder.hpp\n'}
+[6.124654] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__struct.hpp\n'}
+[6.133622] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__traits.hpp\n'}
+[6.142584] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__builder.hpp\n'}
+[6.152655] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__struct.hpp\n'}
+[6.162015] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__traits.hpp\n'}
+[6.174341] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__builder.hpp\n'}
+[6.185055] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__struct.hpp\n'}
+[6.194636] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__traits.hpp\n'}
+[6.204917] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__builder.hpp\n'}
+[6.212766] (-) TimerEvent: {}
+[6.218899] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__struct.hpp\n'}
+[6.233308] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__traits.hpp\n'}
+[6.246315] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/game_state.hpp\n'}
+[6.260398] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal.hpp\n'}
+[6.270989] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal_cmd.hpp\n'}
+[6.284993] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/sentry_cmd.hpp\n'}
+[6.298470] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/shoot_cmd.hpp\n'}
+[6.311313] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.312866] (-) TimerEvent: {}
+[6.323041] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.337452] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.347518] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.361472] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.374207] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.386323] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.400302] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.412998] (-) TimerEvent: {}
+[6.413406] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.422431] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.430347] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.438720] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.452120] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.460965] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/environment/pythonpath.sh\n'}
+[6.469814] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/environment/pythonpath.dsv\n'}
+[6.482977] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[6.494756] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[6.508528] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[6.513102] (-) TimerEvent: {}
+[6.517936] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[6.529395] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/__init__.py\n'}
+[6.545506] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[6.554340] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.562145] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.570900] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/librm_interfaces__rosidl_generator_py.so\n'}
+[6.578968] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/__init__.py\n'}
+[6.587674] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_chassis_cmd.py\n'}
+[6.595790] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_chassis_cmd_s.c\n'}
+[6.604367] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_game_state.py\n'}
+[6.613183] (-) TimerEvent: {}
+[6.617964] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_game_state_s.c\n'}
+[6.630597] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal.py\n'}
+[6.642996] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_cmd.py\n'}
+[6.656636] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_cmd_s.c\n'}
+[6.664705] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_s.c\n'}
+[6.673345] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_sentry_cmd.py\n'}
+[6.687770] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_sentry_cmd_s.c\n'}
+[6.695667] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_shoot_cmd.py\n'}
+[6.708737] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_shoot_cmd_s.c\n'}
+[6.713265] (-) TimerEvent: {}
+[6.721254] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.729920] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.738388] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.753038] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.753416] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.753812] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.753983] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/msg/GameState.idl\n'}
+[6.762985] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/msg/SentryCmd.idl\n'}
+[6.771753] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/msg/ChassisCmd.idl\n'}
+[6.779771] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/msg/Gimbal.idl\n'}
+[6.794843] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/msg/GimbalCmd.idl\n'}
+[6.807074] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/msg/ShootCmd.idl\n'}
+[6.813374] (-) TimerEvent: {}
+[6.818919] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/referee/GameState.msg\n'}
+[6.830488] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/referee/SentryCmd.msg\n'}
+[6.844781] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/msg/ChassisCmd.msg\n'}
+[6.859085] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/msg/Gimbal.msg\n'}
+[6.872733] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/msg/GimbalCmd.msg\n'}
+[6.887463] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/msg/ShootCmd.msg\n'}
+[6.897123] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/ament_index/resource_index/package_run_dependencies/rm_interfaces\n'}
+[6.907732] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/ament_index/resource_index/parent_prefix_path/rm_interfaces\n'}
+[6.913501] (-) TimerEvent: {}
+[6.917651] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/environment/ament_prefix_path.sh\n'}
+[6.932460] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/environment/ament_prefix_path.dsv\n'}
+[6.947217] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/environment/path.sh\n'}
+[6.956078] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/environment/path.dsv\n'}
+[6.964695] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/local_setup.bash\n'}
+[6.973368] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/local_setup.sh\n'}
+[6.982242] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/local_setup.zsh\n'}
+[6.995886] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/local_setup.dsv\n'}
+[7.004982] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/package.dsv\n'}
+[7.013619] (-) TimerEvent: {}
+[7.019835] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/ament_index/resource_index/packages/rm_interfaces\n'}
+[7.032861] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.041569] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.055433] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.064091] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.073190] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.089526] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.103575] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.113716] (-) TimerEvent: {}
+[7.114961] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfacesConfig.cmake\n'}
+[7.124087] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfacesConfig-version.cmake\n'}
+[7.132876] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/package.xml\n'}
+[7.145456] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_c.so\n'}
+[7.146395] (rm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sentry_ws/src/rm_interfaces/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_c.so" to ""\n'}
+[7.146622] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.147406] (rm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sentry_ws/src/rm_interfaces/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.147562] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.148353] (rm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sentry_ws/src/rm_interfaces/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.148567] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_c.so\n'}
+[7.149263] (rm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sentry_ws/src/rm_interfaces/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[7.149402] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.150245] (rm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sentry_ws/src/rm_interfaces/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.150382] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.151290] (rm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sentry_ws/src/rm_interfaces/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.151439] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.152347] (rm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sentry_ws/src/rm_interfaces/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[7.185842] (rm_interfaces) StdoutLine: {'line': b"Listing '/home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces'...\n"}
+[7.186063] (rm_interfaces) StdoutLine: {'line': b"Compiling '/home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/__init__.py'...\n"}
+[7.186175] (rm_interfaces) StdoutLine: {'line': b"Listing '/home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg'...\n"}
+[7.186302] (rm_interfaces) StdoutLine: {'line': b"Compiling '/home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/__init__.py'...\n"}
+[7.186391] (rm_interfaces) StdoutLine: {'line': b"Compiling '/home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_chassis_cmd.py'...\n"}
+[7.186487] (rm_interfaces) StdoutLine: {'line': b"Compiling '/home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_game_state.py'...\n"}
+[7.186572] (rm_interfaces) StdoutLine: {'line': b"Compiling '/home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal.py'...\n"}
+[7.186654] (rm_interfaces) StdoutLine: {'line': b"Compiling '/home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_cmd.py'...\n"}
+[7.186734] (rm_interfaces) StdoutLine: {'line': b"Compiling '/home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_sentry_cmd.py'...\n"}
+[7.186818] (rm_interfaces) StdoutLine: {'line': b"Compiling '/home/sentry_ws/src/rm_interfaces/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_shoot_cmd.py'...\n"}
+[7.189507] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_py.so\n'}
+[7.190395] (rm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sentry_ws/src/rm_interfaces/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_py.so" to ""\n'}
+[7.190537] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.190886] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.191272] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.191642] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.192010] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.192396] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.192762] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.193114] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.193481] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.193850] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.194200] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.194579] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.194949] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.195352] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.195730] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.196119] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_pyExport.cmake\n'}
+[7.196520] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/sentry_ws/src/rm_interfaces/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.199792] (rm_interfaces) CommandEnded: {'returncode': 0}
+[7.214267] (-) TimerEvent: {}
+[7.315214] (-) TimerEvent: {}
+[7.415500] (-) TimerEvent: {}
+[7.516638] (-) TimerEvent: {}
+[7.532672] (rm_interfaces) JobEnded: {'identifier': 'rm_interfaces', 'rc': 0}
+[7.533455] (-) EventReactorShutdown: {}

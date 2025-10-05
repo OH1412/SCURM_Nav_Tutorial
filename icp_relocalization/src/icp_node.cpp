@@ -147,8 +147,9 @@ private:
         // Get fitness score
         double fitness_score = icp.getFitnessScore();
         RCLCPP_INFO(this->get_logger(), "ICP fitness score: %f", fitness_score);
-
+        //记得回溯
         if (fitness_score < fitness_score_thre && icp.hasConverged())
+        // if (true)
         {
             converged_count++;
             RCLCPP_INFO(this->get_logger(), "ICP converged, count: %d", converged_count);
@@ -245,8 +246,9 @@ private:
         // Get fitness score
         double fitness_score = icp.getFitnessScore();
         RCLCPP_INFO(this->get_logger(), "ICP fitness score: %f", fitness_score);
-
+        //记得回溯
         if (icp.hasConverged() && fitness_score < fitness_score_thre && converged_count > converged_count_thre)
+        // if (true)
         {
             RCLCPP_INFO(this->get_logger(), "ICP converged!!!");
             Eigen::Matrix4f transformation_result = icp.getFinalTransformation();

@@ -28,16 +28,20 @@ def get_world_config(world_type):
             'roll':'0.0',
             'yaw': '0.0',
             'pitch': '0.0',
-            'world_path': 'RMUC2024_world/RMUC2024_world.world'
+            'world_path': 'robocon2026_new.world'
+            # 'world_path': 'RMUC2024_world/RMUC2024_world.world'
         },
         WorldType.RMUL: {
-            'x': '4.0',
+            'x': '5.9',
+            # 'x': '4.0',
             'y': '3.0',
             'z': '2.0',
             'roll':'0.0',
             'yaw': '0.0',
             'pitch': '0.0',
-            'world_path': 'RMUL2024_world/RMUL2024_world.world'
+            # 'world_path': 'robocon2026_new.world'
+            'world_path': 'xzx_gazebo/robocon2026map_light_wall.world'
+            # 'world_path': 'RMUL2024_world/RMUL2024_world.world'
             # 'world_path': 'RMUL2024_world/RMUL2024_world_dynamic_obstacles.world'
         }
     }
