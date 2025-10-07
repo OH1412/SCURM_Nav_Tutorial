@@ -38,6 +38,8 @@ using namespace std;
 const double PI = 3.1415926;
 
 double scanVoxelSize = 0.1;
+// double decayTime = 10.0;
+//调整衰退时长获取完整地图
 double decayTime = 10.0;
 double noDecayDis = 0;
 double clearingDis = 30.0;
@@ -425,9 +427,13 @@ int main(int argc, char** argv)
           {
             point = laserCloudDwz->points[i];
             float dis = sqrt((point.x - vehicleX) * (point.x - vehicleX) + (point.y - vehicleY) * (point.y - vehicleY));
+            // if (point.z - vehicleZ > lowerBoundZ - disRatioZ * dis &&
+            //     point.z - vehicleZ < upperBoundZ + disRatioZ * dis &&
+            //     (laserCloudTime - systemInitTime - point.intensity < decayTime || dis < noDecayDis) &&
+            //     !(dis < clearingDis && clearingCloud))
             if (point.z - vehicleZ > lowerBoundZ - disRatioZ * dis &&
                 point.z - vehicleZ < upperBoundZ + disRatioZ * dis &&
-                (laserCloudTime - systemInitTime - point.intensity < decayTime || dis < noDecayDis) &&
+                true &&
                 !(dis < clearingDis && clearingCloud))
             {
               terrainVoxelCloudPtr->push_back(point);

@@ -59,7 +59,11 @@ def generate_launch_description():
             # "point_cloud_max_x":10.0,
             # "point_cloud_min_y":-10.0,
             # "point_cloud_max_y":10.0,
+
+            # "point_cloud_min_z":0.15,
+            #修改配置因为中间的台阶最低级以及坡道截面高度低于0.15
             "point_cloud_min_z":0.15,
+
             # "point_cloud_max_z":100.0,
             # "occupancy_min_z":1.0,
             # "occupancy_max_z":100.0,
