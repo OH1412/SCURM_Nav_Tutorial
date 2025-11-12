@@ -1,1 +1,1 @@
-geometry_msgs:nav2_msgs:nav2_waypoint_follower:rclcpp:rclcpp_action:yaml-cpp
+geometry_msgs:lifecycle_msgs:nav2_msgs:nav2_waypoint_follower:rclcpp:rclcpp_action:yaml-cpp

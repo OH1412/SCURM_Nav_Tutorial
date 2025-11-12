@@ -1,0 +1,13 @@
+gmake[2]: *** Deleting file 'rosidl_generator_cpp/rm_interfaces/msg/detail/gimbal_cmd__traits.hpp'
+gmake[2]: *** Deleting file 'rosidl_generator_cpp/rm_interfaces/msg/detail/gimbal_cmd__struct.hpp'
+gmake[2]: *** [CMakeFiles/rm_interfaces__cpp.dir/build.make:240: rosidl_generator_cpp/rm_interfaces/msg/detail/gimbal_cmd__struct.hpp] Interrupt
+gmake[2]: *** [CMakeFiles/rm_interfaces__cpp.dir/build.make:243: rosidl_generator_cpp/rm_interfaces/msg/detail/gimbal_cmd__traits.hpp] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:317: CMakeFiles/rm_interfaces__cpp.dir/all] Interrupt
+gmake[2]: *** Deleting file 'rosidl_generator_c/rm_interfaces/msg/detail/gimbal_cmd__type_support.h'
+gmake[2]: *** Deleting file 'rosidl_generator_c/rm_interfaces/msg/detail/gimbal_cmd__struct.h'
+gmake[2]: *** Deleting file 'rosidl_generator_c/rm_interfaces/msg/detail/gimbal_cmd__functions.h'
+gmake[2]: *** [CMakeFiles/rm_interfaces__rosidl_generator_c.dir/build.make:213: rosidl_generator_c/rm_interfaces/msg/detail/gimbal_cmd__functions.h] Interrupt
+gmake[2]: *** [CMakeFiles/rm_interfaces__rosidl_generator_c.dir/build.make:216: rosidl_generator_c/rm_interfaces/msg/detail/gimbal_cmd__struct.h] Interrupt
+gmake[2]: *** [CMakeFiles/rm_interfaces__rosidl_generator_c.dir/build.make:219: rosidl_generator_c/rm_interfaces/msg/detail/gimbal_cmd__type_support.h] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/rm_interfaces__rosidl_generator_c.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

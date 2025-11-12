@@ -1,0 +1,5 @@
+[0.888s] Invoking command in '/home/sentry_ws/src/build/velocity_smoother_ext': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --build /home/sentry_ws/src/build/velocity_smoother_ext -- -j16 -l16
+[3.207s] [ 25%] [32mBuilding CXX object CMakeFiles/velocity_smoother_ext_core.dir/src/velocity_smoother_ext.cpp.o[0m
+[3.238s] gmake[2]: *** [CMakeFiles/velocity_smoother_ext_core.dir/build.make:76: CMakeFiles/velocity_smoother_ext_core.dir/src/velocity_smoother_ext.cpp.o] Interrupt
+[3.238s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/velocity_smoother_ext_core.dir/all] Interrupt
+[3.238s] gmake: *** [Makefile:146: all] Interrupt

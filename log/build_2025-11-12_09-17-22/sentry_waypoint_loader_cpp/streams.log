@@ -1,0 +1,26 @@
+[0.017s] Invoking command in '/home/sentry_ws/src/build/sentry_waypoint_loader_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --build /home/sentry_ws/src/build/sentry_waypoint_loader_cpp -- -j16 -l16
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target sentry_waypoint_task_plugin[0m
+[0.115s] [ 25%] [32mBuilding CXX object CMakeFiles/sentry_waypoint_task_plugin.dir/plugins/sentry_waypoint_task.cpp.o[0m
+[2.153s] In file included from [01m[K/home/sentry_ws/src/sentry_waypoint_loader_cpp/plugins/sentry_waypoint_task.cpp:1[m[K:
+[2.153s] [01m[K/home/sentry_ws/src/sentry_waypoint_loader_cpp/include/plugins/sentry_waypoint_task.hpp:[m[K In constructor ‘[01m[Ksentry_waypoint_loader_cpp::SentryWaypointTask::SentryWaypointTask()[m[K’:
+[2.153s] [01m[K/home/sentry_ws/src/sentry_waypoint_loader_cpp/include/plugins/sentry_waypoint_task.hpp:107:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksentry_waypoint_loader_cpp::SentryWaypointTask::current_z_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.154s]   107 |   double [01;35m[Kcurrent_z_[m[K;  // 当前Z轴高度（米）
+[2.154s]       |          [01;35m[K^~~~~~~~~~[m[K
+[2.154s] [01m[K/home/sentry_ws/src/sentry_waypoint_loader_cpp/include/plugins/sentry_waypoint_task.hpp:100:8:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool sentry_waypoint_loader_cpp::SentryWaypointTask::has_received_z_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.154s]   100 |   bool [01;35m[Khas_received_z_[m[K = false;
+[2.154s]       |        [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.154s] [01m[K/home/sentry_ws/src/sentry_waypoint_loader_cpp/plugins/sentry_waypoint_task.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.154s]     7 | [01;35m[KSentryWaypointTask[m[K::SentryWaypointTask()
+[2.155s]       | [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.227s] [ 50%] [32m[1mLinking CXX shared library libsentry_waypoint_task_plugin.so[0m
+[8.824s] [ 50%] Built target sentry_waypoint_task_plugin
+[8.844s] [35m[1mConsolidate compiler generated dependencies of target waypoint_loader[0m
+[8.871s] [ 75%] [32m[1mLinking CXX executable waypoint_loader[0m
+[9.710s] /usr/bin/ld: libsentry_waypoint_task_plugin.so: undefined reference to `sentry_waypoint_loader_cpp::SentryWaypointTask::executeDelayedDescend400mm()'
+[9.711s] /usr/bin/ld: libsentry_waypoint_task_plugin.so: undefined reference to `sentry_waypoint_loader_cpp::SentryWaypointTask::executeDelayedDescend200mm()'
+[9.712s] /usr/bin/ld: libsentry_waypoint_task_plugin.so: undefined reference to `sentry_waypoint_loader_cpp::SentryWaypointTask::executeAscend400mm()'
+[9.741s] collect2: error: ld returned 1 exit status
+[9.744s] gmake[2]: *** [CMakeFiles/waypoint_loader.dir/build.make:602: waypoint_loader] Error 1
+[9.745s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/waypoint_loader.dir/all] Error 2
+[9.745s] gmake: *** [Makefile:146: all] Error 2
+[9.749s] Invoked command in '/home/sentry_ws/src/build/sentry_waypoint_loader_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --build /home/sentry_ws/src/build/sentry_waypoint_loader_cpp -- -j16 -l16

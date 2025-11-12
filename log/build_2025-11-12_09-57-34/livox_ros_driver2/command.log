@@ -1,0 +1,1 @@
+Invoking command in '/home/sentry_ws/src/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake /home/sentry_ws/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/sentry_ws/src/install/livox_ros_driver2

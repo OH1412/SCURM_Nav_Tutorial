@@ -1,0 +1,130 @@
+[0.104s] Invoking command in '/home/sentry_ws/src/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --build /home/sentry_ws/src/build/auto_aim_interfaces -- -j16 -l16
+[0.761s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.761s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.761s] [  2%] Built target ament_cmake_python_copy_auto_aim_interfaces
+[0.761s] running egg_info
+[0.761s] creating auto_aim_interfaces.egg-info
+[0.761s] writing auto_aim_interfaces.egg-info/PKG-INFO
+[0.761s] writing dependency_links to auto_aim_interfaces.egg-info/dependency_links.txt
+[0.761s] writing top-level names to auto_aim_interfaces.egg-info/top_level.txt
+[0.762s] writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[0.762s] reading manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[0.762s] writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[0.762s] [  2%] Built target ament_cmake_python_build_auto_aim_interfaces_egg
+[2.279s] [  2%] Built target auto_aim_interfaces__cpp
+[2.338s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.347s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.348s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.527s] [  6%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armor__functions.c.o[0m
+[2.557s] [  8%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armors__functions.c.o[0m
+[2.572s] [  9%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/target__functions.c.o[0m
+[2.651s] [ 10%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_light__functions.c.o[0m
+[2.692s] [ 11%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_lights__functions.c.o[0m
+[2.713s] [ 12%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_armor__functions.c.o[0m
+[2.760s] [ 13%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_armors__functions.c.o[0m
+[2.837s] [ 14%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/tracker_info__functions.c.o[0m
+[3.283s] gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp'
+[3.283s] gmake[2]: *** Deleting file 'rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armor__type_support.cpp'
+[3.283s] gmake[2]: *** Deleting file 'rosidl_typesupport_cpp/auto_aim_interfaces/msg/armor__type_support.cpp'
+[3.284s] Traceback (most recent call last):
+[3.284s]   File "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 28, in <module>
+[3.285s] Traceback (most recent call last):
+[3.285s]   File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 23, in <module>
+[3.285s]     sys.exit(main())
+[3.285s]   File "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 24, in main
+[3.285s]     sys.exit(main())
+[3.285s]   File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 19, in main
+[3.285s]     generate_cpp(args.generator_arguments_file, args.typesupports)
+[3.285s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py", line 28, in generate_cpp
+[3.285s] gmake[2]: *** Deleting file 'CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_lights__functions.c.o'
+[3.289s] Traceback (most recent call last):
+[3.290s]   File "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 31, in <module>
+[3.290s]     sys.exit(main())
+[3.290s]   File "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 27, in main
+[3.290s]     generate_cpp(args.generator_arguments_file)
+[3.290s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_cpp/__init__.py", line 31, in generate_cpp
+[3.308s]     generate_cpp(args.generator_arguments_file)
+[3.308s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_cpp/__init__.py", line 24, in generate_cpp
+[3.323s] gmake[2]: *** [CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/build.make:278: CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armor__functions.c.o] Interrupt
+[3.324s] gmake[2]: *** [CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/build.make:320: CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_light__functions.c.o] Interrupt
+[3.324s] gmake[2]: *** [CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/build.make:292: CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armors__functions.c.o] Interrupt
+[3.324s] gmake[2]: *** [CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/build.make:334: CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_lights__functions.c.o] Interrupt
+[3.324s] gmake[2]: *** [CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/build.make:348: CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_armor__functions.c.o] Interrupt
+[3.324s] gmake[2]: *** [CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/build.make:376: CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/tracker_info__functions.c.o] Interrupt
+[3.325s] gmake[2]: *** [CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/build.make:306: CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/target__functions.c.o] Interrupt
+[3.325s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/all] Interrupt
+[3.334s]     return generate_files(generator_arguments_file, mapping)
+[3.334s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[3.334s]     idl_file = parse_idl_file(locator)
+[3.335s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[3.335s]     content = parse_idl_string(string, png_file=png_file)
+[3.335s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[3.335s]     tree = get_ast_from_idl_string(idl_string)
+[3.335s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+[3.335s]     return _parser.parse(idl_string)
+[3.335s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 619, in parse
+[3.335s]     return self.parser.parse(text, start=start, on_error=on_error)
+[3.335s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse
+[3.336s]     return self.parser.parse(stream, chosen_start, **kw)
+[3.336s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 266, in parse
+[3.336s]     return generate_files(
+[3.336s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[3.336s]     idl_file = parse_idl_file(locator)
+[3.336s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[3.336s]     content = parse_idl_string(string, png_file=png_file)
+[3.336s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[3.336s]     tree = get_ast_from_idl_string(idl_string)
+[3.336s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+[3.336s]     return _parser.parse(idl_string)
+[3.336s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 619, in parse
+[3.336s]     return self.parser.parse(text, start=start, on_error=on_error)
+[3.336s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse
+[3.337s]     return self.parser.parse(stream, chosen_start, **kw)
+[3.337s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 266, in parse
+[3.347s]     return generate_files(generator_arguments_file, mapping)
+[3.347s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[3.348s]     idl_file = parse_idl_file(locator)
+[3.348s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[3.348s]     content = parse_idl_string(string, png_file=png_file)
+[3.348s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[3.348s]     tree = get_ast_from_idl_string(idl_string)
+[3.348s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+[3.348s]     return _parser.parse(idl_string)
+[3.348s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 619, in parse
+[3.348s]     return self.parser.parse(text, start=start, on_error=on_error)
+[3.348s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse
+[3.348s]     return self.parser.parse(stream, chosen_start, **kw)
+[3.348s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 266, in parse
+[3.370s]     to_scan = self._parse(lexer, columns, to_scan, start_symbol)
+[3.370s]   File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 144, in _parse
+[3.370s]     to_scan = self._parse(lexer, columns, to_scan, start_symbol)
+[3.371s]     to_scan = self._parse(lexer, columns, to_scan, start_symbol)
+[3.371s]   File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 144, in _parse
+[3.371s]   File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 144, in _parse
+[3.397s]     self.predict_and_complete(i, to_scan, columns, transitives)
+[3.397s]     self.predict_and_complete(i, to_scan, columns, transitives)
+[3.397s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 122, in predict_and_complete
+[3.398s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 153, in predict_and_complete
+[3.398s]     self.predict_and_complete(i, to_scan, columns, transitives)
+[3.398s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 152, in predict_and_complete
+[3.398s]     originators = [originator for originator in columns[item.start] if originator.expect is not None and originator.expect == item.s]
+[3.399s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 122, in <listcomp>
+[3.399s]     to_scan.add(new_item)
+[3.399s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley_common.py", line 31, in __hash__
+[3.399s]     if new_item.expect in self.TERMINALS:
+[3.399s]     originators = [originator for originator in columns[item.start] if originator.expect is not None and originator.expect == item.s]
+[3.399s] KeyboardInterrupt
+[3.399s]   File "/usr/lib/python3/dist-packages/lark/grammar.py", line 20, in __eq__
+[3.412s] gmake[2]: *** [CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:150: rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armor__type_support.cpp] Interrupt
+[3.412s] gmake[1]: *** [CMakeFiles/Makefile2:342: CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[3.424s]     def __hash__(self):
+[3.424s] KeyboardInterrupt
+[3.433s]     return self.is_term == other.is_term and self.name == other.name
+[3.434s]   File "/usr/lib/python3/dist-packages/lark/lexer.py", line 192, in __eq__
+[3.438s] gmake[2]: *** [CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/build.make:148: rosidl_typesupport_cpp/auto_aim_interfaces/msg/armor__type_support.cpp] Interrupt
+[3.438s] gmake[1]: *** [CMakeFiles/Makefile2:394: CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/all] Interrupt
+[3.444s]     if isinstance(other, Token) and self.type != other.type:
+[3.445s] KeyboardInterrupt
+[3.456s] gmake[2]: *** [CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:150: rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp] Interrupt
+[3.456s] gmake[1]: *** [CMakeFiles/Makefile2:368: CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[3.456s] gmake: *** [Makefile:146: all] Interrupt

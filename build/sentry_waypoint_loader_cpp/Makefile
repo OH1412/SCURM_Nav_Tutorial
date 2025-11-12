@@ -198,24 +198,61 @@ sentry_waypoint_loader_cpp_uninstall/fast:
 .PHONY : sentry_waypoint_loader_cpp_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named waypoint_loader_cpp
+# Target rules for targets named sentry_waypoint_task_plugin
 
 # Build rule for target.
-waypoint_loader_cpp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 waypoint_loader_cpp
-.PHONY : waypoint_loader_cpp
+sentry_waypoint_task_plugin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sentry_waypoint_task_plugin
+.PHONY : sentry_waypoint_task_plugin
 
 # fast build rule for target.
-waypoint_loader_cpp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/waypoint_loader_cpp.dir/build.make CMakeFiles/waypoint_loader_cpp.dir/build
-.PHONY : waypoint_loader_cpp/fast
+sentry_waypoint_task_plugin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sentry_waypoint_task_plugin.dir/build.make CMakeFiles/sentry_waypoint_task_plugin.dir/build
+.PHONY : sentry_waypoint_task_plugin/fast
+
+#=============================================================================
+# Target rules for targets named waypoint_loader
+
+# Build rule for target.
+waypoint_loader: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 waypoint_loader
+.PHONY : waypoint_loader
+
+# fast build rule for target.
+waypoint_loader/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/waypoint_loader.dir/build.make CMakeFiles/waypoint_loader.dir/build
+.PHONY : waypoint_loader/fast
+
+plugins/sentry_waypoint_task.o: plugins/sentry_waypoint_task.cpp.o
+.PHONY : plugins/sentry_waypoint_task.o
+
+# target to build an object file
+plugins/sentry_waypoint_task.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sentry_waypoint_task_plugin.dir/build.make CMakeFiles/sentry_waypoint_task_plugin.dir/plugins/sentry_waypoint_task.cpp.o
+.PHONY : plugins/sentry_waypoint_task.cpp.o
+
+plugins/sentry_waypoint_task.i: plugins/sentry_waypoint_task.cpp.i
+.PHONY : plugins/sentry_waypoint_task.i
+
+# target to preprocess a source file
+plugins/sentry_waypoint_task.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sentry_waypoint_task_plugin.dir/build.make CMakeFiles/sentry_waypoint_task_plugin.dir/plugins/sentry_waypoint_task.cpp.i
+.PHONY : plugins/sentry_waypoint_task.cpp.i
+
+plugins/sentry_waypoint_task.s: plugins/sentry_waypoint_task.cpp.s
+.PHONY : plugins/sentry_waypoint_task.s
+
+# target to generate assembly for a file
+plugins/sentry_waypoint_task.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sentry_waypoint_task_plugin.dir/build.make CMakeFiles/sentry_waypoint_task_plugin.dir/plugins/sentry_waypoint_task.cpp.s
+.PHONY : plugins/sentry_waypoint_task.cpp.s
 
 src/waypoint_loader.o: src/waypoint_loader.cpp.o
 .PHONY : src/waypoint_loader.o
 
 # target to build an object file
 src/waypoint_loader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/waypoint_loader_cpp.dir/build.make CMakeFiles/waypoint_loader_cpp.dir/src/waypoint_loader.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/waypoint_loader.dir/build.make CMakeFiles/waypoint_loader.dir/src/waypoint_loader.cpp.o
 .PHONY : src/waypoint_loader.cpp.o
 
 src/waypoint_loader.i: src/waypoint_loader.cpp.i
@@ -223,7 +260,7 @@ src/waypoint_loader.i: src/waypoint_loader.cpp.i
 
 # target to preprocess a source file
 src/waypoint_loader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/waypoint_loader_cpp.dir/build.make CMakeFiles/waypoint_loader_cpp.dir/src/waypoint_loader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/waypoint_loader.dir/build.make CMakeFiles/waypoint_loader.dir/src/waypoint_loader.cpp.i
 .PHONY : src/waypoint_loader.cpp.i
 
 src/waypoint_loader.s: src/waypoint_loader.cpp.s
@@ -231,7 +268,7 @@ src/waypoint_loader.s: src/waypoint_loader.cpp.s
 
 # target to generate assembly for a file
 src/waypoint_loader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/waypoint_loader_cpp.dir/build.make CMakeFiles/waypoint_loader_cpp.dir/src/waypoint_loader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/waypoint_loader.dir/build.make CMakeFiles/waypoint_loader.dir/src/waypoint_loader.cpp.s
 .PHONY : src/waypoint_loader.cpp.s
 
 # Help Target
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... sentry_waypoint_loader_cpp_uninstall"
 	@echo "... uninstall"
-	@echo "... waypoint_loader_cpp"
+	@echo "... sentry_waypoint_task_plugin"
+	@echo "... waypoint_loader"
+	@echo "... plugins/sentry_waypoint_task.o"
+	@echo "... plugins/sentry_waypoint_task.i"
+	@echo "... plugins/sentry_waypoint_task.s"
 	@echo "... src/waypoint_loader.o"
 	@echo "... src/waypoint_loader.i"
 	@echo "... src/waypoint_loader.s"

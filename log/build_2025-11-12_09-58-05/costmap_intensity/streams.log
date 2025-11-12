@@ -1,0 +1,7 @@
+[0.449s] Invoking command in '/home/sentry_ws/src/build/costmap_intensity': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --build /home/sentry_ws/src/build/costmap_intensity -- -j16 -l16
+[0.795s] [ 33%] [32mBuilding CXX object CMakeFiles/costmap_intensity_core.dir/plugins/obstacle_layer.cpp.o[0m
+[0.795s] [ 66%] [32mBuilding CXX object CMakeFiles/costmap_intensity_core.dir/plugins/voxel_layer.cpp.o[0m
+[3.287s] gmake[2]: *** [CMakeFiles/costmap_intensity_core.dir/build.make:76: CMakeFiles/costmap_intensity_core.dir/plugins/obstacle_layer.cpp.o] Interrupt
+[3.287s] gmake[2]: *** [CMakeFiles/costmap_intensity_core.dir/build.make:90: CMakeFiles/costmap_intensity_core.dir/plugins/voxel_layer.cpp.o] Interrupt
+[3.287s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/costmap_intensity_core.dir/all] Interrupt
+[3.287s] gmake: *** [Makefile:146: all] Interrupt

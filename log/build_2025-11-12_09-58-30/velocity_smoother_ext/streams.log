@@ -1,0 +1,39 @@
+[1.001s] Invoking command in '/home/sentry_ws/src/build/velocity_smoother_ext': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --build /home/sentry_ws/src/build/velocity_smoother_ext -- -j16 -l16
+[11.698s] [ 25%] [32mBuilding CXX object CMakeFiles/velocity_smoother_ext_core.dir/src/velocity_smoother_ext.cpp.o[0m
+[31.522s] [ 50%] [32m[1mLinking CXX shared library libvelocity_smoother_ext_core.so[0m
+[32.470s] [ 50%] Built target velocity_smoother_ext_core
+[32.512s] [ 75%] [32mBuilding CXX object CMakeFiles/velocity_smoother_ext.dir/src/main.cpp.o[0m
+[37.617s] [100%] [32m[1mLinking CXX executable velocity_smoother_ext[0m
+[37.954s] [100%] Built target velocity_smoother_ext
+[37.994s] Invoked command in '/home/sentry_ws/src/build/velocity_smoother_ext' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --build /home/sentry_ws/src/build/velocity_smoother_ext -- -j16 -l16
+[38.033s] Invoking command in '/home/sentry_ws/src/build/velocity_smoother_ext': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --install /home/sentry_ws/src/build/velocity_smoother_ext
+[38.046s] -- Install configuration: "Release"
+[38.047s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/lib/libvelocity_smoother_ext_core.so
+[38.051s] -- Set runtime path of "/home/sentry_ws/src/install/velocity_smoother_ext/lib/libvelocity_smoother_ext_core.so" to ""
+[38.051s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/lib/velocity_smoother_ext/velocity_smoother_ext
+[38.052s] -- Set runtime path of "/home/sentry_ws/src/install/velocity_smoother_ext/lib/velocity_smoother_ext/velocity_smoother_ext" to ""
+[38.052s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/include/
+[38.053s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/include//velocity_smoother_ext
+[38.053s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/include//velocity_smoother_ext/velocity_smoother_ext.hpp
+[38.053s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/environment/library_path.sh
+[38.054s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/environment/library_path.dsv
+[38.068s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/ament_index/resource_index/package_run_dependencies/velocity_smoother_ext
+[38.077s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/ament_index/resource_index/parent_prefix_path/velocity_smoother_ext
+[38.080s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/environment/ament_prefix_path.sh
+[38.084s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/environment/ament_prefix_path.dsv
+[38.091s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/environment/path.sh
+[38.097s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/environment/path.dsv
+[38.098s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/local_setup.bash
+[38.099s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/local_setup.sh
+[38.109s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/local_setup.zsh
+[38.110s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/local_setup.dsv
+[38.111s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/package.dsv
+[38.116s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/ament_index/resource_index/packages/velocity_smoother_ext
+[38.116s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/ament_index/resource_index/rclcpp_components/velocity_smoother_ext
+[38.118s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.118s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/cmake/ament_cmake_export_libraries-extras.cmake
+[38.119s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.120s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/cmake/velocity_smoother_extConfig.cmake
+[38.120s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/cmake/velocity_smoother_extConfig-version.cmake
+[38.121s] -- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/package.xml
+[38.127s] Invoked command in '/home/sentry_ws/src/build/velocity_smoother_ext' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --install /home/sentry_ws/src/build/velocity_smoother_ext

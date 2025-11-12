@@ -1,0 +1,35 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/velocity_smoother_ext_core.dir/src/velocity_smoother_ext.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libvelocity_smoother_ext_core.so[0m
+[ 50%] Built target velocity_smoother_ext_core
+[ 75%] [32mBuilding CXX object CMakeFiles/velocity_smoother_ext.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable velocity_smoother_ext[0m
+[100%] Built target velocity_smoother_ext
+-- Install configuration: "Release"
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/lib/libvelocity_smoother_ext_core.so
+-- Set runtime path of "/home/sentry_ws/src/install/velocity_smoother_ext/lib/libvelocity_smoother_ext_core.so" to ""
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/lib/velocity_smoother_ext/velocity_smoother_ext
+-- Set runtime path of "/home/sentry_ws/src/install/velocity_smoother_ext/lib/velocity_smoother_ext/velocity_smoother_ext" to ""
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/include/
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/include//velocity_smoother_ext
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/include//velocity_smoother_ext/velocity_smoother_ext.hpp
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/environment/library_path.sh
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/environment/library_path.dsv
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/ament_index/resource_index/package_run_dependencies/velocity_smoother_ext
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/ament_index/resource_index/parent_prefix_path/velocity_smoother_ext
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/environment/ament_prefix_path.sh
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/environment/ament_prefix_path.dsv
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/environment/path.sh
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/environment/path.dsv
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/local_setup.bash
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/local_setup.sh
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/local_setup.zsh
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/local_setup.dsv
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/package.dsv
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/ament_index/resource_index/packages/velocity_smoother_ext
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/ament_index/resource_index/rclcpp_components/velocity_smoother_ext
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/cmake/velocity_smoother_extConfig.cmake
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/cmake/velocity_smoother_extConfig-version.cmake
+-- Installing: /home/sentry_ws/src/install/velocity_smoother_ext/share/velocity_smoother_ext/package.xml

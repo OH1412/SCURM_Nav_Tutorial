@@ -1,0 +1,99 @@
+[0.812s] Invoking command in '/home/sentry_ws/src/build/icp_relocalization': AMENT_PREFIX_PATH=/home/sentry_ws/src/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry_ws/src/install/livox_ros_driver2:/home/sentry_ws/install/velocity_smoother_ext:/home/sentry_ws/install/terrain_analysis_ext:/home/sentry_ws/install/terrain_analysis:/home/sentry_ws/install/sentry_waypoint_loader_cpp:/home/sentry_ws/install/sentry_bringup:/home/sentry_ws/install/sensor_scan_generation:/home/sentry_ws/install/ros2_livox_simulation:/home/sentry_ws/install/rm_interfaces:/home/sentry_ws/install/rm_decision_cpp:/home/sentry_ws/install/pb_rm_simulation:/home/sentry_ws/install/fast_lio:/home/sentry_ws/install/livox_ros_driver2:/home/sentry_ws/install/icp_relocalization:/home/sentry_ws/install/gazebo_ros:/home/sentry_ws/install/gazebo_msgs:/home/sentry_ws/install/gazebo_dev:/home/sentry_ws/install/costmap_intensity:/home/sentry_ws/install/behaviortree_cpp:/home/sentry_ws/install/behavior_ext_plugins:/home/sentry_ws/install/auto_aim_interfaces:/home/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/sentry_ws/src/install/livox_ros_driver2/lib:/home/sentry_ws/src/rm_simulation/pb_rm_simulation/RC_vision_2026/gazebo_for_humble/install/my_gazebo_plugins/lib:/home/sentry_ws/install/velocity_smoother_ext/lib:/home/sentry_ws/install/sentry_waypoint_loader_cpp/lib:/home/sentry_ws/install/ros2_livox_simulation/lib:/home/sentry_ws/install/rm_interfaces/lib:/home/sentry_ws/install/rm_decision_cpp/lib:/home/sentry_ws/install/fast_lio/lib:/home/sentry_ws/install/livox_ros_driver2/lib:/home/sentry_ws/install/gazebo_ros/lib:/home/sentry_ws/install/gazebo_msgs/lib:/home/sentry_ws/install/costmap_intensity/lib:/home/sentry_ws/install/behaviortree_cpp/lib:/home/sentry_ws/install/behavior_ext_plugins/lib:/home/sentry_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/sentry_ws/src/rm_simulation/pb_rm_simulation/RC_vision_2026/gazebo_for_humble/install/my_gazebo_plugins/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sentry_ws/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sentry_ws/src/icp_relocalization -DCMAKE_INSTALL_PREFIX=/home/sentry_ws/src/install/icp_relocalization
+[1.286s] -- The C compiler identification is GNU 11.4.0
+[1.583s] -- The CXX compiler identification is GNU 11.4.0
+[1.629s] -- Detecting C compiler ABI info
+[2.027s] -- Detecting C compiler ABI info - done
+[2.036s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.073s] -- Detecting C compile features
+[2.073s] -- Detecting C compile features - done
+[2.088s] -- Detecting CXX compiler ABI info
+[2.198s] -- Detecting CXX compiler ABI info - done
+[2.207s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.207s] -- Detecting CXX compile features
+[2.208s] -- Detecting CXX compile features - done
+[3.173s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.413s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.316s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[7.215s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.297s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.347s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.334s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.564s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.904s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.910s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.542s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.579s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.646s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.756s] -- Looking for pthread.h
+[12.114s] -- Looking for pthread.h - found
+[12.114s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.715s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.717s] -- Found Threads: TRUE  
+[13.112s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[16.228s] -- Found tf2: 0.25.3 (/opt/ros/humble/share/tf2/cmake)
+[16.250s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[16.650s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[16.651s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[16.651s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[17.262s] -- Checking for module 'eigen3'
+[17.278s] --   Found eigen3, version 3.4.0
+[17.323s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[17.323s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[18.427s] -- Checking for module 'flann'
+[18.444s] --   Found flann, version 1.9.1
+[18.502s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[18.502s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[32.438s] -- Checking for module 'libusb-1.0'
+[32.458s] --   Found libusb-1.0, version 1.0.25
+[32.513s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[32.515s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[32.599s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[32.739s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[32.746s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[32.753s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[32.888s] -- Found Qhull version 8.0.2
+[33.028s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[33.159s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[33.159s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[33.160s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[33.160s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[33.161s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[33.161s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[33.162s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[33.162s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[33.162s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[33.163s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[33.164s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[33.164s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[33.165s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[33.165s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[33.166s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[33.167s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[33.167s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[33.168s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[33.169s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[33.170s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[33.170s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[33.170s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[33.171s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[33.171s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[33.172s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[33.445s] -- Found octomap_ros: 0.4.3 (/opt/ros/humble/share/octomap_ros/cmake)
+[34.358s] -- Found tf2_eigen: 0.25.3 (/opt/ros/humble/share/tf2_eigen/cmake)
+[35.290s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[35.741s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[35.741s] -- Found OpenMP: TRUE (found version "4.5")  
+[35.745s] -- Found livox_ros_driver2: 1.0.0 (/home/sentry_ws/src/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[36.075s] -- Configuring done
+[36.145s] -- Generating done
+[36.270s] -- Build files have been written to: /home/sentry_ws/src/build/icp_relocalization
+[36.292s] Invoked command in '/home/sentry_ws/src/build/icp_relocalization' returned '0': AMENT_PREFIX_PATH=/home/sentry_ws/src/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry_ws/src/install/livox_ros_driver2:/home/sentry_ws/install/velocity_smoother_ext:/home/sentry_ws/install/terrain_analysis_ext:/home/sentry_ws/install/terrain_analysis:/home/sentry_ws/install/sentry_waypoint_loader_cpp:/home/sentry_ws/install/sentry_bringup:/home/sentry_ws/install/sensor_scan_generation:/home/sentry_ws/install/ros2_livox_simulation:/home/sentry_ws/install/rm_interfaces:/home/sentry_ws/install/rm_decision_cpp:/home/sentry_ws/install/pb_rm_simulation:/home/sentry_ws/install/fast_lio:/home/sentry_ws/install/livox_ros_driver2:/home/sentry_ws/install/icp_relocalization:/home/sentry_ws/install/gazebo_ros:/home/sentry_ws/install/gazebo_msgs:/home/sentry_ws/install/gazebo_dev:/home/sentry_ws/install/costmap_intensity:/home/sentry_ws/install/behaviortree_cpp:/home/sentry_ws/install/behavior_ext_plugins:/home/sentry_ws/install/auto_aim_interfaces:/home/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/sentry_ws/src/install/livox_ros_driver2/lib:/home/sentry_ws/src/rm_simulation/pb_rm_simulation/RC_vision_2026/gazebo_for_humble/install/my_gazebo_plugins/lib:/home/sentry_ws/install/velocity_smoother_ext/lib:/home/sentry_ws/install/sentry_waypoint_loader_cpp/lib:/home/sentry_ws/install/ros2_livox_simulation/lib:/home/sentry_ws/install/rm_interfaces/lib:/home/sentry_ws/install/rm_decision_cpp/lib:/home/sentry_ws/install/fast_lio/lib:/home/sentry_ws/install/livox_ros_driver2/lib:/home/sentry_ws/install/gazebo_ros/lib:/home/sentry_ws/install/gazebo_msgs/lib:/home/sentry_ws/install/costmap_intensity/lib:/home/sentry_ws/install/behaviortree_cpp/lib:/home/sentry_ws/install/behavior_ext_plugins/lib:/home/sentry_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/sentry_ws/src/rm_simulation/pb_rm_simulation/RC_vision_2026/gazebo_for_humble/install/my_gazebo_plugins/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sentry_ws/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sentry_ws/src/icp_relocalization -DCMAKE_INSTALL_PREFIX=/home/sentry_ws/src/install/icp_relocalization
+[36.294s] Invoking command in '/home/sentry_ws/src/build/icp_relocalization': AMENT_PREFIX_PATH=/home/sentry_ws/src/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry_ws/src/install/livox_ros_driver2:/home/sentry_ws/install/velocity_smoother_ext:/home/sentry_ws/install/terrain_analysis_ext:/home/sentry_ws/install/terrain_analysis:/home/sentry_ws/install/sentry_waypoint_loader_cpp:/home/sentry_ws/install/sentry_bringup:/home/sentry_ws/install/sensor_scan_generation:/home/sentry_ws/install/ros2_livox_simulation:/home/sentry_ws/install/rm_interfaces:/home/sentry_ws/install/rm_decision_cpp:/home/sentry_ws/install/pb_rm_simulation:/home/sentry_ws/install/fast_lio:/home/sentry_ws/install/livox_ros_driver2:/home/sentry_ws/install/icp_relocalization:/home/sentry_ws/install/gazebo_ros:/home/sentry_ws/install/gazebo_msgs:/home/sentry_ws/install/gazebo_dev:/home/sentry_ws/install/costmap_intensity:/home/sentry_ws/install/behaviortree_cpp:/home/sentry_ws/install/behavior_ext_plugins:/home/sentry_ws/install/auto_aim_interfaces:/home/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/sentry_ws/src/install/livox_ros_driver2/lib:/home/sentry_ws/src/rm_simulation/pb_rm_simulation/RC_vision_2026/gazebo_for_humble/install/my_gazebo_plugins/lib:/home/sentry_ws/install/velocity_smoother_ext/lib:/home/sentry_ws/install/sentry_waypoint_loader_cpp/lib:/home/sentry_ws/install/ros2_livox_simulation/lib:/home/sentry_ws/install/rm_interfaces/lib:/home/sentry_ws/install/rm_decision_cpp/lib:/home/sentry_ws/install/fast_lio/lib:/home/sentry_ws/install/livox_ros_driver2/lib:/home/sentry_ws/install/gazebo_ros/lib:/home/sentry_ws/install/gazebo_msgs/lib:/home/sentry_ws/install/costmap_intensity/lib:/home/sentry_ws/install/behaviortree_cpp/lib:/home/sentry_ws/install/behavior_ext_plugins/lib:/home/sentry_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/sentry_ws/src/rm_simulation/pb_rm_simulation/RC_vision_2026/gazebo_for_humble/install/my_gazebo_plugins/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sentry_ws/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sentry_ws/src/build/icp_relocalization -- -j16 -l16
+[36.356s] [ 16%] [32mBuilding CXX object CMakeFiles/transform_publisher.dir/src/transform_publisher.cpp.o[0m
+[36.358s] [ 33%] [32mBuilding CXX object CMakeFiles/icp_node.dir/src/icp_node.cpp.o[0m
+[36.360s] [ 50%] [32mBuilding CXX object CMakeFiles/sac_ia_gicp.dir/src/sac_ia_gicp.cpp.o[0m
+[44.479s] [01m[K/home/sentry_ws/src/icp_relocalization/src/icp_node.cpp:[m[K In member function ‘[01m[Kvoid ICPNode::lvx_cloud_callback(livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::SharedPtr)[m[K’:
+[44.479s] [01m[K/home/sentry_ws/src/icp_relocalization/src/icp_node.cpp:210:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klivox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::_point_num_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[44.479s]   210 |         for (int i = 0; [01;35m[Ki < msg->point_num[m[K; i++)
+[44.479s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+                                                                                                                           

@@ -20,9 +20,10 @@ void SentryWaypointTask::initialize(
   // 锁定父节点（waypoint_follower）
   auto node = parent.lock();
   if (!node) {
+    RCLCPP_FATAL(rclcpp::get_logger("SentryWaypointTask"), "无法锁定父节点，插件初始化失败！");
     throw std::runtime_error("无法锁定父节点，插件初始化失败！");
   }
-  node_ = node;
+  node_ = node->shared_from_this();
   rclcpp::Logger logger = node->get_logger();
   clock_ = node->get_clock();
 
@@ -53,12 +54,22 @@ bool SentryWaypointTask::processAtWaypoint(
   const geometry_msgs::msg::PoseStamped & /*curr_pose*/,
   const int & curr_waypoint_index)
 {
-  try {
+  // 强制打印确认函数进入（无任何依赖）
+  printf("[SentryWaypointTask] 【强制打印】进入processAtWaypoint，航点索引：%d\n", curr_waypoint_index);
+  fflush(stdout);
 
-  if (!node_) {
-    RCLCPP_ERROR(rclcpp::get_logger("SentryWaypointTask"), "[processAtWaypoint]节点指针为空，跳过航点%d任务", curr_waypoint_index);
-    return false;
+  // 探针日志1：使用全局日志器
+  RCLCPP_INFO(rclcpp::get_logger("SentryWaypointTask"), "【探针1】进入processAtWaypoint，航点索引：%d", curr_waypoint_index);
+
+  // 检查node_有效性（使用安全的bool转换）
+  if (!static_cast<bool>(node_)) {
+      printf("[SentryWaypointTask] 【强制打印】node_ 为空！\n");
+      fflush(stdout);
+      RCLCPP_ERROR(rclcpp::get_logger("SentryWaypointTask"), "【探针2】node_ 为空，跳过航点%d任务", curr_waypoint_index);
+      return false;
   }
+
+  try {
   rclcpp::Logger logger = node_->get_logger();
 
   // 插件未启用时直接返回成功

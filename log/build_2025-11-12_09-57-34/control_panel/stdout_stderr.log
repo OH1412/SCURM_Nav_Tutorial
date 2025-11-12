@@ -1,0 +1,40 @@
+running egg_info
+creating ../build/control_panel/control_panel.egg-info
+writing ../build/control_panel/control_panel.egg-info/PKG-INFO
+writing dependency_links to ../build/control_panel/control_panel.egg-info/dependency_links.txt
+writing entry points to ../build/control_panel/control_panel.egg-info/entry_points.txt
+writing requirements to ../build/control_panel/control_panel.egg-info/requires.txt
+writing top-level names to ../build/control_panel/control_panel.egg-info/top_level.txt
+writing manifest file '../build/control_panel/control_panel.egg-info/SOURCES.txt'
+reading manifest file '../build/control_panel/control_panel.egg-info/SOURCES.txt'
+writing manifest file '../build/control_panel/control_panel.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sentry_ws/src/build/control_panel/build
+creating /home/sentry_ws/src/build/control_panel/build/lib
+creating /home/sentry_ws/src/build/control_panel/build/lib/control_panel
+copying control_panel/__init__.py -> /home/sentry_ws/src/build/control_panel/build/lib/control_panel
+copying control_panel/gui.py -> /home/sentry_ws/src/build/control_panel/build/lib/control_panel
+copying control_panel/publisher.py -> /home/sentry_ws/src/build/control_panel/build/lib/control_panel
+running install
+running install_lib
+creating /home/sentry_ws/src/install/control_panel/lib/python3.10/site-packages/control_panel
+copying /home/sentry_ws/src/build/control_panel/build/lib/control_panel/__init__.py -> /home/sentry_ws/src/install/control_panel/lib/python3.10/site-packages/control_panel
+copying /home/sentry_ws/src/build/control_panel/build/lib/control_panel/gui.py -> /home/sentry_ws/src/install/control_panel/lib/python3.10/site-packages/control_panel
+copying /home/sentry_ws/src/build/control_panel/build/lib/control_panel/publisher.py -> /home/sentry_ws/src/install/control_panel/lib/python3.10/site-packages/control_panel
+byte-compiling /home/sentry_ws/src/install/control_panel/lib/python3.10/site-packages/control_panel/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sentry_ws/src/install/control_panel/lib/python3.10/site-packages/control_panel/gui.py to gui.cpython-310.pyc
+byte-compiling /home/sentry_ws/src/install/control_panel/lib/python3.10/site-packages/control_panel/publisher.py to publisher.cpython-310.pyc
+running install_data
+creating /home/sentry_ws/src/install/control_panel/share/ament_index
+creating /home/sentry_ws/src/install/control_panel/share/ament_index/resource_index
+creating /home/sentry_ws/src/install/control_panel/share/ament_index/resource_index/packages
+copying resource/control_panel -> /home/sentry_ws/src/install/control_panel/share/ament_index/resource_index/packages
+copying package.xml -> /home/sentry_ws/src/install/control_panel/share/control_panel
+running install_egg_info
+Copying ../build/control_panel/control_panel.egg-info to /home/sentry_ws/src/install/control_panel/lib/python3.10/site-packages/control_panel-2.3.0-py3.10.egg-info
+running install_scripts
+Installing control_panel script to /home/sentry_ws/src/install/control_panel/lib/control_panel
+writing list of installed files to '/home/sentry_ws/src/build/control_panel/install.log'
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(

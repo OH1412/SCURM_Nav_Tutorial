@@ -1,0 +1,16 @@
+In file included from [01m[K/home/sentry_ws/src/sentry_waypoint_loader_cpp/plugins/sentry_waypoint_task.cpp:1[m[K:
+[01m[K/home/sentry_ws/src/sentry_waypoint_loader_cpp/include/plugins/sentry_waypoint_task.hpp:[m[K In constructor ‘[01m[Ksentry_waypoint_loader_cpp::SentryWaypointTask::SentryWaypointTask()[m[K’:
+[01m[K/home/sentry_ws/src/sentry_waypoint_loader_cpp/include/plugins/sentry_waypoint_task.hpp:107:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksentry_waypoint_loader_cpp::SentryWaypointTask::current_z_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  107 |   double [01;35m[Kcurrent_z_[m[K;  // 当前Z轴高度（米）
+      |          [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/sentry_ws/src/sentry_waypoint_loader_cpp/include/plugins/sentry_waypoint_task.hpp:100:8:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool sentry_waypoint_loader_cpp::SentryWaypointTask::has_received_z_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  100 |   bool [01;35m[Khas_received_z_[m[K = false;
+      |        [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/sentry_ws/src/sentry_waypoint_loader_cpp/plugins/sentry_waypoint_task.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    7 | [01;35m[KSentryWaypointTask[m[K::SentryWaypointTask()
+      | [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+/usr/bin/ld: libsentry_waypoint_task_plugin.so: undefined reference to `sentry_waypoint_loader_cpp::SentryWaypointTask::executeAscend200mm()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/waypoint_loader.dir/build.make:602: waypoint_loader] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/waypoint_loader.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

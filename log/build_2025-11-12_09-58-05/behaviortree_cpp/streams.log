@@ -1,0 +1,43 @@
+[0.099s] Invoking command in '/home/sentry_ws/src/build/behaviortree_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --build /home/sentry_ws/src/build/behaviortree_cpp -- -j16 -l16
+[0.788s] [35m[1mConsolidate compiler generated dependencies of target lexy_file[0m
+[0.789s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.789s] [  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.789s] [  4%] Built target gtest_main
+[0.789s] [  5%] Built target lexy_file
+[0.789s] [35m[1mConsolidate compiler generated dependencies of target behaviortree_cpp[0m
+[0.789s] [  5%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/action_node.cpp.o[0m
+[0.789s] [  5%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/bt_factory.cpp.o[0m
+[0.794s] [  8%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorator_node.cpp.o[0m
+[0.794s] [  8%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/script_parser.cpp.o[0m
+[0.794s] [  8%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/blackboard.cpp.o[0m
+[0.794s] [  9%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/basic_types.cpp.o[0m
+[0.794s] [ 10%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/condition_node.cpp.o[0m
+[0.794s] [ 10%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/tree_node.cpp.o[0m
+[0.794s] [ 11%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/behavior_tree.cpp.o[0m
+[0.794s] [ 12%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/control_node.cpp.o[0m
+[0.794s] [ 14%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/json_export.cpp.o[0m
+[0.794s] [ 14%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/xml_parsing.cpp.o[0m
+[0.794s] [ 14%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/actions/test_node.cpp.o[0m
+[0.794s] [ 15%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/actions/sleep_node.cpp.o[0m
+[0.795s] [ 16%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/delay_node.cpp.o[0m
+[2.760s] [ 17%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/inverter_node.cpp.o[0m
+[3.213s] [ 18%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/repeat_node.cpp.o[0m
+[3.312s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:300: CMakeFiles/behaviortree_cpp.dir/src/decorators/inverter_node.cpp.o] Interrupt
+[3.312s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:160: CMakeFiles/behaviortree_cpp.dir/src/condition_node.cpp.o] Interrupt
+[3.312s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:286: CMakeFiles/behaviortree_cpp.dir/src/decorators/delay_node.cpp.o] Interrupt
+[3.312s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:146: CMakeFiles/behaviortree_cpp.dir/src/decorator_node.cpp.o] Interrupt
+[3.312s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:104: CMakeFiles/behaviortree_cpp.dir/src/behavior_tree.cpp.o] Interrupt
+[3.312s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:76: CMakeFiles/behaviortree_cpp.dir/src/action_node.cpp.o] Interrupt
+[3.312s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:132: CMakeFiles/behaviortree_cpp.dir/src/bt_factory.cpp.o] Interrupt
+[3.317s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:118: CMakeFiles/behaviortree_cpp.dir/src/blackboard.cpp.o] Interrupt
+[3.317s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:202: CMakeFiles/behaviortree_cpp.dir/src/tree_node.cpp.o] Interrupt
+[3.318s] gmake[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:76: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+[3.318s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:216: CMakeFiles/behaviortree_cpp.dir/src/script_parser.cpp.o] Interrupt
+[3.318s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:230: CMakeFiles/behaviortree_cpp.dir/src/json_export.cpp.o] Interrupt
+[3.318s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:314: CMakeFiles/behaviortree_cpp.dir/src/decorators/repeat_node.cpp.o] Interrupt
+[3.318s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:174: CMakeFiles/behaviortree_cpp.dir/src/control_node.cpp.o] Interrupt
+[3.318s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:244: CMakeFiles/behaviortree_cpp.dir/src/xml_parsing.cpp.o] Interrupt
+[3.318s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:272: CMakeFiles/behaviortree_cpp.dir/src/actions/sleep_node.cpp.o] Interrupt
+[3.318s] gmake[1]: *** [CMakeFiles/Makefile2:493: gtest/CMakeFiles/gtest.dir/all] Interrupt
+[3.318s] gmake[1]: *** [CMakeFiles/Makefile2:307: CMakeFiles/behaviortree_cpp.dir/all] Interrupt
+[3.319s] gmake: *** [Makefile:146: all] Interrupt

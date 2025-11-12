@@ -1,0 +1,21 @@
+[0.107s] Invoking command in '/home/sentry_ws/src/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --build /home/sentry_ws/src/build/gazebo_dev -- -j16 -l16
+[1.157s] Invoked command in '/home/sentry_ws/src/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --build /home/sentry_ws/src/build/gazebo_dev -- -j16 -l16
+[1.625s] Invoking command in '/home/sentry_ws/src/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --install /home/sentry_ws/src/build/gazebo_dev
+[14.233s] -- Install configuration: ""
+[14.233s] -- Up-to-date: /home/sentry_ws/src/install/gazebo_dev/share/ament_index/resource_index/package_run_dependencies/gazebo_dev
+[14.233s] -- Up-to-date: /home/sentry_ws/src/install/gazebo_dev/share/ament_index/resource_index/parent_prefix_path/gazebo_dev
+[14.234s] -- Up-to-date: /home/sentry_ws/src/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.sh
+[14.234s] -- Up-to-date: /home/sentry_ws/src/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.dsv
+[14.234s] -- Up-to-date: /home/sentry_ws/src/install/gazebo_dev/share/gazebo_dev/environment/path.sh
+[14.234s] -- Up-to-date: /home/sentry_ws/src/install/gazebo_dev/share/gazebo_dev/environment/path.dsv
+[14.234s] -- Up-to-date: /home/sentry_ws/src/install/gazebo_dev/share/gazebo_dev/local_setup.bash
+[14.234s] -- Up-to-date: /home/sentry_ws/src/install/gazebo_dev/share/gazebo_dev/local_setup.sh
+[14.234s] -- Up-to-date: /home/sentry_ws/src/install/gazebo_dev/share/gazebo_dev/local_setup.zsh
+[14.234s] -- Up-to-date: /home/sentry_ws/src/install/gazebo_dev/share/gazebo_dev/local_setup.dsv
+[14.234s] -- Installing: /home/sentry_ws/src/install/gazebo_dev/share/gazebo_dev/package.dsv
+[14.234s] -- Up-to-date: /home/sentry_ws/src/install/gazebo_dev/share/ament_index/resource_index/packages/gazebo_dev
+[14.234s] -- Up-to-date: /home/sentry_ws/src/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_dev-extras.cmake
+[14.235s] -- Up-to-date: /home/sentry_ws/src/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig.cmake
+[14.235s] -- Up-to-date: /home/sentry_ws/src/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig-version.cmake
+[14.235s] -- Up-to-date: /home/sentry_ws/src/install/gazebo_dev/share/gazebo_dev/package.xml
+[14.250s] Invoked command in '/home/sentry_ws/src/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --install /home/sentry_ws/src/build/gazebo_dev

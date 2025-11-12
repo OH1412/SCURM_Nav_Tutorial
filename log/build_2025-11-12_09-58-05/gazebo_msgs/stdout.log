@@ -1,0 +1,12 @@
+[  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  0%] Built target ament_cmake_python_copy_gazebo_msgs
+running egg_info
+creating gazebo_msgs.egg-info
+writing gazebo_msgs.egg-info/PKG-INFO
+writing dependency_links to gazebo_msgs.egg-info/dependency_links.txt
+writing top-level names to gazebo_msgs.egg-info/top_level.txt
+writing manifest file 'gazebo_msgs.egg-info/SOURCES.txt'
+reading manifest file 'gazebo_msgs.egg-info/SOURCES.txt'
+writing manifest file 'gazebo_msgs.egg-info/SOURCES.txt'
+[  0%] Built target ament_cmake_python_build_gazebo_msgs_egg

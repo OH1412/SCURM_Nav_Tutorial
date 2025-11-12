@@ -1,0 +1,27 @@
+[0.495s] Invoking command in '/home/sentry_ws/src/build/sentry_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --build /home/sentry_ws/src/build/sentry_bringup -- -j16 -l16
+[1.031s] Invoked command in '/home/sentry_ws/src/build/sentry_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --build /home/sentry_ws/src/build/sentry_bringup -- -j16 -l16
+[1.414s] Invoking command in '/home/sentry_ws/src/build/sentry_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --install /home/sentry_ws/src/build/sentry_bringup
+[3.232s] -- Install configuration: ""
+[3.232s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/launch
+[3.232s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/launch/bringup_all_in_one.launch.py
+[3.232s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/launch/relocalization.launch.py
+[3.232s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/launch/octomap_server_intensity.launch.py
+[3.232s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/launch/navigation.launch.py
+[3.232s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/launch/__pycache__
+[3.232s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/launch/__pycache__/carto.launch.cpython-310.pyc
+[3.233s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/launch/__pycache__/rmul_bringup.cpython-310.pyc
+[3.233s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/launch/__pycache__/map_server.launch.cpython-310.pyc
+[3.233s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/launch/__pycache__/octomap_server_intensity.launch.cpython-310.pyc
+[3.233s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/launch/__pycache__/bringup_all_in_one.cpython-310.pyc
+[3.233s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/launch/__pycache__/view_map.cpython-310.pyc
+[3.233s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/launch/__pycache__/mapping.cpython-310.pyc
+[3.233s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/launch/__pycache__/static_trans.cpython-310.pyc
+[3.233s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/launch/__pycache__/mapping.launch.cpython-310.pyc
+[3.233s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/launch/mapping.launch.py
+[3.233s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/launch/simulation_bringup.launch.py
+[3.233s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/maps
+[3.233s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/maps/oringin
+[3.233s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/maps/oringin/test_map.pgm
+[3.233s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/maps/oringin/test_map.yaml
+[3.233s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/maps/oringin/test.pcd
+[3.233s] -- Installing: /home/sentry_ws/src/install/sentry_bringup/share/sentry_bringup/maps/all_raw_points.pcd

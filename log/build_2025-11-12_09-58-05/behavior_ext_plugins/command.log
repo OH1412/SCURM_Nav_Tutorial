@@ -1,0 +1,1 @@
+Invoking command in '/home/sentry_ws/src/build/behavior_ext_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake /home/sentry_ws/src/nav2_plugins/behavior_ext_plugins -DCMAKE_INSTALL_PREFIX=/home/sentry_ws/src/install/behavior_ext_plugins

@@ -1,0 +1,42 @@
+[3.342s] Invoking command in '/home/sentry_ws/src/control_panel': PYTHONPATH=/home/sentry_ws/src/build/control_panel/prefix_override:/home/sentry_ws/src/install/control_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/control_panel build --build-base /home/sentry_ws/src/build/control_panel/build install --record /home/sentry_ws/src/build/control_panel/install.log --single-version-externally-managed
+[4.791s] running egg_info
+[4.791s] creating ../build/control_panel/control_panel.egg-info
+[4.792s] writing ../build/control_panel/control_panel.egg-info/PKG-INFO
+[4.792s] writing dependency_links to ../build/control_panel/control_panel.egg-info/dependency_links.txt
+[4.792s] writing entry points to ../build/control_panel/control_panel.egg-info/entry_points.txt
+[4.792s] writing requirements to ../build/control_panel/control_panel.egg-info/requires.txt
+[4.792s] writing top-level names to ../build/control_panel/control_panel.egg-info/top_level.txt
+[4.792s] writing manifest file '../build/control_panel/control_panel.egg-info/SOURCES.txt'
+[4.792s] reading manifest file '../build/control_panel/control_panel.egg-info/SOURCES.txt'
+[4.792s] writing manifest file '../build/control_panel/control_panel.egg-info/SOURCES.txt'
+[4.792s] running build
+[4.792s] running build_py
+[4.792s] creating /home/sentry_ws/src/build/control_panel/build
+[4.792s] creating /home/sentry_ws/src/build/control_panel/build/lib
+[4.792s] creating /home/sentry_ws/src/build/control_panel/build/lib/control_panel
+[4.792s] copying control_panel/__init__.py -> /home/sentry_ws/src/build/control_panel/build/lib/control_panel
+[4.793s] copying control_panel/gui.py -> /home/sentry_ws/src/build/control_panel/build/lib/control_panel
+[4.793s] copying control_panel/publisher.py -> /home/sentry_ws/src/build/control_panel/build/lib/control_panel
+[4.793s] running install
+[4.793s] running install_lib
+[4.793s] creating /home/sentry_ws/src/install/control_panel/lib/python3.10/site-packages/control_panel
+[4.793s] copying /home/sentry_ws/src/build/control_panel/build/lib/control_panel/__init__.py -> /home/sentry_ws/src/install/control_panel/lib/python3.10/site-packages/control_panel
+[4.793s] copying /home/sentry_ws/src/build/control_panel/build/lib/control_panel/gui.py -> /home/sentry_ws/src/install/control_panel/lib/python3.10/site-packages/control_panel
+[4.793s] copying /home/sentry_ws/src/build/control_panel/build/lib/control_panel/publisher.py -> /home/sentry_ws/src/install/control_panel/lib/python3.10/site-packages/control_panel
+[4.793s] byte-compiling /home/sentry_ws/src/install/control_panel/lib/python3.10/site-packages/control_panel/__init__.py to __init__.cpython-310.pyc
+[4.793s] byte-compiling /home/sentry_ws/src/install/control_panel/lib/python3.10/site-packages/control_panel/gui.py to gui.cpython-310.pyc
+[4.793s] byte-compiling /home/sentry_ws/src/install/control_panel/lib/python3.10/site-packages/control_panel/publisher.py to publisher.cpython-310.pyc
+[4.793s] running install_data
+[4.793s] creating /home/sentry_ws/src/install/control_panel/share/ament_index
+[4.794s] creating /home/sentry_ws/src/install/control_panel/share/ament_index/resource_index
+[4.794s] creating /home/sentry_ws/src/install/control_panel/share/ament_index/resource_index/packages
+[4.794s] copying resource/control_panel -> /home/sentry_ws/src/install/control_panel/share/ament_index/resource_index/packages
+[4.794s] copying package.xml -> /home/sentry_ws/src/install/control_panel/share/control_panel
+[4.794s] running install_egg_info
+[4.794s] Copying ../build/control_panel/control_panel.egg-info to /home/sentry_ws/src/install/control_panel/lib/python3.10/site-packages/control_panel-2.3.0-py3.10.egg-info
+[4.794s] running install_scripts
+[4.794s] Installing control_panel script to /home/sentry_ws/src/install/control_panel/lib/control_panel
+[4.794s] writing list of installed files to '/home/sentry_ws/src/build/control_panel/install.log'
+[4.806s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.806s]   warnings.warn(
+[4.826s] Invoked command in '/home/sentry_ws/src/control_panel' returned '0': PYTHONPATH=/home/sentry_ws/src/build/control_panel/prefix_override:/home/sentry_ws/src/install/control_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/control_panel build --build-base /home/sentry_ws/src/build/control_panel/build install --record /home/sentry_ws/src/build/control_panel/install.log --single-version-externally-managed

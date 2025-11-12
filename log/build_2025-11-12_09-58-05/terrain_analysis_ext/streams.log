@@ -1,0 +1,15 @@
+[0.574s] Invoking command in '/home/sentry_ws/src/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake /home/sentry_ws/src/autonomous_exploration_development_environment/src/terrain_analysis_ext -DCMAKE_INSTALL_PREFIX=/home/sentry_ws/src/install/terrain_analysis_ext
+[1.087s] -- The C compiler identification is GNU 11.4.0
+[1.153s] -- The CXX compiler identification is GNU 11.4.0
+[1.186s] -- Detecting C compiler ABI info
+[1.620s] -- Detecting C compiler ABI info - done
+[1.633s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.634s] -- Detecting C compile features
+[1.636s] -- Detecting C compile features - done
+[1.650s] -- Detecting CXX compiler ABI info
+[2.138s] -- Detecting CXX compiler ABI info - done
+[2.147s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.148s] -- Detecting CXX compile features
+[2.155s] -- Detecting CXX compile features - done
+[2.171s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.827s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 

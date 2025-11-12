@@ -1,0 +1,6 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/costmap_intensity_core.dir/plugins/obstacle_layer.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/costmap_intensity_core.dir/plugins/voxel_layer.cpp.o[0m
+gmake[2]: *** [CMakeFiles/costmap_intensity_core.dir/build.make:76: CMakeFiles/costmap_intensity_core.dir/plugins/obstacle_layer.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/costmap_intensity_core.dir/build.make:90: CMakeFiles/costmap_intensity_core.dir/plugins/voxel_layer.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/costmap_intensity_core.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

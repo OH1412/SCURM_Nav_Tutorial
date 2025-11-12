@@ -1,0 +1,22 @@
+[33mCMake Warning (dev) at CMakeLists.txt:30 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/sentry_ws/src/autonomous_exploration_development_environment/src/terrain_analysis_ext/src/pathNorm.cpp:[m[K In member function ‘[01m[Kbool PointCloudProcessingNode::stair_detection(const Ptr&, double, double, double)[m[K’:
+[01m[K/home/sentry_ws/src/autonomous_exploration_development_environment/src/terrain_analysis_ext/src/pathNorm.cpp:123:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstep_avg_normal_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  123 |     bool stair_detection(const pcl::PointCloud<pcl::PointXYZ>::Ptr &objects, [01;35m[Kdouble step_avg_normal_x[m[K, double step_avg_normal_y, double step_avg_normal_z)
+      |                                                                              [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sentry_ws/src/autonomous_exploration_development_environment/src/terrain_analysis_ext/src/pathNorm.cpp:123:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstep_avg_normal_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  123 |     bool stair_detection(const pcl::PointCloud<pcl::PointXYZ>::Ptr &objects, double step_avg_normal_x, [01;35m[Kdouble step_avg_normal_y[m[K, double step_avg_normal_z)
+      |                                                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sentry_ws/src/autonomous_exploration_development_environment/src/terrain_analysis_ext/src/pathNorm.cpp:123:137:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstep_avg_normal_z[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  123 |     bool stair_detection(const pcl::PointCloud<pcl::PointXYZ>::Ptr &objects, double step_avg_normal_x, double step_avg_normal_y, [01;35m[Kdouble step_avg_normal_z[m[K)
+      |                                                                                                                                  [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,381 @@
+[0.096s] Invoking command in '/home/sentry_ws/src/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --build /home/sentry_ws/src/build/auto_aim_interfaces -- -j16 -l16
+[0.852s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_generator_c[0m
+[0.852s] [  1%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armor__functions.c.o[0m
+[0.852s] [  2%] Built target auto_aim_interfaces__cpp
+[0.852s] [  3%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armors__functions.c.o[0m
+[0.852s] [  4%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/target__functions.c.o[0m
+[0.852s] [  5%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_lights__functions.c.o[0m
+[0.852s] [  6%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/tracker_info__functions.c.o[0m
+[0.852s] [  8%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_light__functions.c.o[0m
+[0.852s] [  9%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_armor__functions.c.o[0m
+[0.852s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.853s] [ 11%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.853s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.853s] [ 12%] Built target ament_cmake_python_copy_auto_aim_interfaces
+[0.853s] [ 13%] [32m[1mLinking C shared library libauto_aim_interfaces__rosidl_generator_c.so[0m
+[0.853s] [ 16%] Built target auto_aim_interfaces__rosidl_generator_c
+[0.853s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.853s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.853s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.853s] running egg_info
+[0.853s] writing auto_aim_interfaces.egg-info/PKG-INFO
+[0.853s] writing dependency_links to auto_aim_interfaces.egg-info/dependency_links.txt
+[0.853s] writing top-level names to auto_aim_interfaces.egg-info/top_level.txt
+[0.853s] reading manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[0.854s] writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[0.854s] [ 19%] Built target ament_cmake_python_build_auto_aim_interfaces_egg
+[1.351s] [ 20%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/armors__type_support.cpp.o[0m
+[1.356s] [ 21%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/armor__type_support.cpp.o[0m
+[1.385s] [ 22%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armor__type_support.cpp.o[0m
+[1.395s] [ 24%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/target__type_support.cpp.o[0m
+[1.397s] [ 25%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_lights__type_support.cpp.o[0m
+[1.409s] [ 26%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_light__type_support.cpp.o[0m
+[1.417s] [ 27%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armors__type_support.cpp.o[0m
+[1.430s] [ 28%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_lights__type_support.cpp.o[0m
+[1.431s] [ 29%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/target__type_support.cpp.o[0m
+[1.432s] [ 31%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_light__type_support.cpp.o[0m
+[1.473s] [ 32%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_armor__type_support.cpp.o[0m
+[1.481s] [ 33%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_armor__type_support.cpp.o[0m
+[2.378s] [ 34%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/armor__type_support.cpp.o[0m
+[2.381s] [ 35%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_armors__type_support.cpp.o[0m
+[2.384s] [ 36%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/armors__type_support.cpp.o[0m
+[2.415s] [ 37%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/tracker_info__type_support.cpp.o[0m
+[2.605s] [ 39%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/target__type_support.cpp.o[0m
+[2.706s] [ 40%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_lights__type_support.cpp.o[0m
+[2.706s] [ 41%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_light__type_support.cpp.o[0m
+[2.806s] [ 42%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armor__type_support.cpp.o[0m
+[2.818s] [ 43%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_armor__type_support.cpp.o[0m
+[2.888s] [ 44%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armors__type_support.cpp.o[0m
+[2.889s] [ 45%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_armors__type_support.cpp.o[0m
+[2.920s] [ 47%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/tracker_info__type_support.cpp.o[0m
+[2.930s] [ 48%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_armors__type_support.cpp.o[0m
+[2.946s] [ 49%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armor__type_support.c.o[0m
+[2.961s] [ 50%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armors__type_support.c.o[0m
+[2.998s] [ 51%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/armor__type_support_c.cpp.o[0m
+[3.023s] [ 52%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/target__type_support.cpp.o[0m
+[3.038s] [ 54%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/tracker_info__type_support.cpp.o[0m
+[3.070s] [ 55%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/target__type_support.c.o[0m
+[3.234s] [ 56%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_c.so[0m
+[3.347s] [ 57%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_light__type_support.c.o[0m
+[3.369s] [ 58%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_lights__type_support.c.o[0m
+[3.370s] [ 59%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_armor__type_support.c.o[0m
+[3.440s] [ 60%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_light__type_support.cpp.o[0m
+[3.458s] [ 62%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_lights__type_support.cpp.o[0m
+[3.501s] [ 62%] Built target auto_aim_interfaces__rosidl_typesupport_c
+[3.537s] [ 63%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_armor__type_support.cpp.o[0m
+[3.582s] [ 64%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_armors__type_support.c.o[0m
+[3.587s] [ 65%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/tracker_info__type_support.c.o[0m
+[3.678s] [ 66%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_armors__type_support.cpp.o[0m
+[3.691s] [ 67%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/armors__type_support_c.cpp.o[0m
+[3.758s] [ 68%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/target__type_support_c.cpp.o[0m
+[3.759s] [ 70%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/tracker_info__type_support.cpp.o[0m
+[3.811s] [ 71%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_cpp.so[0m
+[3.814s] [ 72%] [32m[1mLinking C shared library libauto_aim_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.959s] [ 73%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_lights__type_support_c.cpp.o[0m
+[3.965s] [ 74%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_light__type_support_c.cpp.o[0m
+[4.043s] [ 75%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.066s] [ 75%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c
+[4.087s] [ 75%] Built target auto_aim_interfaces__rosidl_typesupport_cpp
+[4.140s] [ 77%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_armor__type_support_c.cpp.o[0m
+[4.150s] [ 78%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_armors__type_support_c.cpp.o[0m
+[4.458s] [ 79%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/tracker_info__type_support_c.cpp.o[0m
+[4.576s] [ 79%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_cpp
+[5.394s] [ 80%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.775s] [ 81%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.845s] [ 81%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.112s] [ 81%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c
+[6.277s] [ 81%] Built target auto_aim_interfaces
+[6.443s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.757s] [ 82%] Built target auto_aim_interfaces__py
+[9.861s] [ 83%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_target_s.c.o[0m
+[9.864s] [ 85%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_armor_s.c.o[0m
+[9.881s] [ 86%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_armors_s.c.o[0m
+[9.919s] [ 87%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_light_s.c.o[0m
+[10.033s] [ 88%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_lights_s.c.o[0m
+[10.042s] [ 89%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_armors_s.c.o[0m
+[10.051s] [ 90%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_armor_s.c.o[0m
+[10.072s] [ 91%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_tracker_info_s.c.o[0m
+[10.570s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so[0m
+[10.787s] [ 93%] Built target auto_aim_interfaces__rosidl_generator_py
+[10.934s] [ 94%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.945s] [ 95%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.031s] [ 96%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[11.322s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.361s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.462s] [100%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.567s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext
+[11.597s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[11.722s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_c__pyext
+[11.806s] Invoked command in '/home/sentry_ws/src/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --build /home/sentry_ws/src/build/auto_aim_interfaces -- -j16 -l16
+[14.814s] Invoking command in '/home/sentry_ws/src/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --install /home/sentry_ws/src/build/auto_aim_interfaces
+[14.835s] -- Install configuration: ""
+[14.835s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/ament_index/resource_index/rosidl_interfaces/auto_aim_interfaces
+[14.836s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[14.841s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[14.842s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_generator_c__visibility_control.h
+[14.843s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.h
+[14.844s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[14.845s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.h
+[14.845s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.h
+[14.846s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.h
+[14.847s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__functions.c
+[14.848s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__functions.h
+[14.849s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.h
+[14.849s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__functions.c
+[14.850s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.h
+[14.851s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__functions.c
+[14.852s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__functions.h
+[14.852s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.h
+[14.853s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.h
+[14.854s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__functions.c
+[14.855s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__functions.c
+[14.855s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.h
+[14.856s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__functions.h
+[14.857s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__functions.c
+[14.858s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__functions.h
+[14.858s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.h
+[14.859s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__struct.h
+[14.860s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__functions.h
+[14.860s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__functions.h
+[14.861s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__functions.h
+[14.861s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__struct.h
+[14.862s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.h
+[14.862s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__functions.h
+[14.862s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__functions.c
+[14.862s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__functions.c
+[14.863s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.h
+[14.864s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.h
+[14.865s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.h
+[14.866s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.h
+[14.866s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.h
+[14.866s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/target.h
+[14.867s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armor.h
+[14.867s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.h
+[14.867s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/tracker_info.h
+[14.868s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armor.h
+[14.868s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.h
+[14.868s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.sh
+[14.869s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.dsv
+[14.869s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so
+[14.871s] -- Set runtime path of "/home/sentry_ws/src/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so" to ""
+[14.871s] -- Up-to-date: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[14.871s] -- Up-to-date: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[14.871s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.872s] -- Up-to-date: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[14.872s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_c.h
+[14.872s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_c.h
+[14.872s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_c.h
+[14.872s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[14.872s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_c.h
+[14.872s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_fastrtps_c.h
+[14.872s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_c.h
+[14.872s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_c.h
+[14.873s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so
+[14.873s] -- Set runtime path of "/home/sentry_ws/src/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[14.873s] -- Up-to-date: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[14.873s] -- Up-to-date: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[14.873s] -- Up-to-date: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[14.873s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_c.h
+[14.874s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.c
+[14.874s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.c
+[14.874s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h
+[14.875s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.c
+[14.875s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_c.h
+[14.875s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_c.h
+[14.875s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.c
+[14.876s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.c
+[14.876s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.c
+[14.876s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_c.h
+[14.877s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_c.h
+[14.877s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_introspection_c.h
+[14.877s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_c.h
+[14.878s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.c
+[14.878s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.c
+[14.878s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.879s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so
+[14.880s] -- Set runtime path of "/home/sentry_ws/src/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[14.880s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so
+[14.881s] -- Set runtime path of "/home/sentry_ws/src/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so" to ""
+[14.881s] -- Up-to-date: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[14.882s] -- Up-to-date: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[14.882s] -- Up-to-date: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[14.882s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__traits.hpp
+[14.883s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__struct.hpp
+[14.883s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__traits.hpp
+[14.884s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.hpp
+[14.884s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__builder.hpp
+[14.885s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__traits.hpp
+[14.885s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__builder.hpp
+[14.885s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__builder.hpp
+[14.886s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__struct.hpp
+[14.886s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.hpp
+[14.887s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__builder.hpp
+[14.887s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__traits.hpp
+[14.888s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.hpp
+[14.888s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__traits.hpp
+[14.888s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__builder.hpp
+[14.889s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__traits.hpp
+[14.890s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__builder.hpp
+[14.890s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__traits.hpp
+[14.891s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.hpp
+[14.891s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.hpp
+[14.892s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__builder.hpp
+[14.892s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__traits.hpp
+[14.893s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__builder.hpp
+[14.893s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.hpp
+[14.893s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.hpp
+[14.894s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armor.hpp
+[14.894s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.hpp
+[14.895s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armor.hpp
+[14.895s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/tracker_info.hpp
+[14.895s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.hpp
+[14.896s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.hpp
+[14.896s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/target.hpp
+[14.899s] -- Up-to-date: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[14.899s] -- Up-to-date: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[14.900s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.901s] -- Up-to-date: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[14.901s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_cpp.hpp
+[14.901s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_fastrtps_cpp.hpp
+[14.902s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/dds_fastrtps
+[14.902s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_cpp.hpp
+[14.903s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp
+[14.903s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_cpp.hpp
+[14.904s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_cpp.hpp
+[14.906s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[14.906s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp
+[14.907s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[14.908s] -- Set runtime path of "/home/sentry_ws/src/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.912s] -- Up-to-date: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[14.913s] -- Up-to-date: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[14.913s] -- Up-to-date: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[14.913s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_cpp.hpp
+[14.914s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp
+[14.914s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.cpp
+[14.915s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.cpp
+[14.915s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.cpp
+[14.915s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.cpp
+[14.916s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_cpp.hpp
+[14.916s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.cpp
+[14.917s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.cpp
+[14.917s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_cpp.hpp
+[14.917s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.cpp
+[14.921s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.cpp
+[14.922s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_introspection_cpp.hpp
+[14.923s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_cpp.hpp
+[14.923s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[14.924s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp
+[14.924s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so
+[14.926s] -- Set runtime path of "/home/sentry_ws/src/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[14.926s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so
+[14.929s] -- Set runtime path of "/home/sentry_ws/src/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so" to ""
+[14.930s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.sh
+[14.930s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.dsv
+[14.931s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info
+[14.931s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[14.932s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[14.932s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[14.933s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[14.937s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces
+[14.937s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.937s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py
+[14.938s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c
+[14.938s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[14.938s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.938s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so
+[14.939s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.939s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg
+[14.939s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/__init__.py
+[14.939s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target_s.c
+[14.940s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights_s.c
+[14.940s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info.py
+[14.940s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors_s.c
+[14.940s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info_s.c
+[14.940s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor.py
+[14.941s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors_s.c
+[14.941s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor.py
+[14.941s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target.py
+[14.946s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light.py
+[14.946s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor_s.c
+[14.946s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor_s.c
+[14.946s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light_s.c
+[14.946s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights.py
+[14.947s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors.py
+[14.947s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors.py
+[14.947s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.103s] Listing '/home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces'...
+[15.103s] Compiling '/home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py'...
+[15.103s] Listing '/home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg'...
+[15.103s] Compiling '/home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/__init__.py'...
+[15.103s] Compiling '/home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor.py'...
+[15.103s] Compiling '/home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors.py'...
+[15.103s] Compiling '/home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor.py'...
+[15.104s] Compiling '/home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors.py'...
+[15.104s] Compiling '/home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light.py'...
+[15.104s] Compiling '/home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights.py'...
+[15.104s] Compiling '/home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target.py'...
+[15.104s] Compiling '/home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info.py'...
+[15.125s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.126s] -- Set runtime path of "/home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.127s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.127s] -- Set runtime path of "/home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.128s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.129s] -- Set runtime path of "/home/sentry_ws/src/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.129s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_py.so
+[15.130s] -- Set runtime path of "/home/sentry_ws/src/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_py.so" to ""
+[15.131s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.idl
+[15.131s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.idl
+[15.131s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Target.idl
+[15.132s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.idl
+[15.133s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.idl
+[15.133s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmor.idl
+[15.134s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmors.idl
+[15.134s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TrackerInfo.idl
+[15.135s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.msg
+[15.135s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.msg
+[15.136s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Target.msg
+[15.136s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.msg
+[15.136s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.msg
+[15.137s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmor.msg
+[15.137s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmors.msg
+[15.138s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TrackerInfo.msg
+[15.138s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/ament_index/resource_index/package_run_dependencies/auto_aim_interfaces
+[15.139s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/ament_index/resource_index/parent_prefix_path/auto_aim_interfaces
+[15.139s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.sh
+[15.140s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.dsv
+[15.140s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.sh
+[15.140s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.dsv
+[15.141s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.bash
+[15.141s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.sh
+[15.142s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.zsh
+[15.142s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.dsv
+[15.143s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/package.dsv
+[15.143s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/ament_index/resource_index/packages/auto_aim_interfaces
+[15.145s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport.cmake
+[15.146s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport-noconfig.cmake
+[15.146s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[15.147s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.147s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[15.153s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.154s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport.cmake
+[15.155s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[15.155s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cppExport.cmake
+[15.156s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.156s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.157s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[15.157s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.158s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport.cmake
+[15.158s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[15.158s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport.cmake
+[15.159s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[15.159s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake-extras.cmake
+[15.160s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.160s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.161s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[15.161s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[15.162s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.164s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.165s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig.cmake
+[15.165s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig-version.cmake
+[15.166s] -- Installing: /home/sentry_ws/src/install/auto_aim_interfaces/share/auto_aim_interfaces/package.xml
+[15.177s] Invoked command in '/home/sentry_ws/src/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --install /home/sentry_ws/src/build/auto_aim_interfaces

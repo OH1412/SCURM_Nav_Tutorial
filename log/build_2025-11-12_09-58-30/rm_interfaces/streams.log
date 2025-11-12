@@ -1,0 +1,327 @@
+[0.541s] Invoking command in '/home/sentry_ws/src/build/rm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --build /home/sentry_ws/src/build/rm_interfaces -- -j16 -l16
+[0.944s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.967s] [  1%] Built target ament_cmake_python_copy_rm_interfaces
+[1.008s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.065s] running egg_info
+[2.066s] writing rm_interfaces.egg-info/PKG-INFO
+[2.092s] writing dependency_links to rm_interfaces.egg-info/dependency_links.txt
+[2.094s] writing top-level names to rm_interfaces.egg-info/top_level.txt
+[2.100s] reading manifest file 'rm_interfaces.egg-info/SOURCES.txt'
+[2.101s] writing manifest file 'rm_interfaces.egg-info/SOURCES.txt'
+[2.308s] [  2%] Built target ament_cmake_python_build_rm_interfaces_egg
+[4.146s] [  2%] Built target rm_interfaces__cpp
+[4.250s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.277s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.305s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.407s] [  8%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/game_state__functions.c.o[0m
+[4.464s] [  9%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/sentry_cmd__functions.c.o[0m
+[4.509s] [ 11%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/chassis_cmd__functions.c.o[0m
+[4.536s] [ 12%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/gimbal__functions.c.o[0m
+[4.547s] [ 15%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/shoot_cmd__functions.c.o[0m
+[4.548s] [ 15%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/gimbal_cmd__functions.c.o[0m
+[4.853s] [ 16%] [32m[1mLinking C shared library librm_interfaces__rosidl_generator_c.so[0m
+[5.143s] [ 16%] Built target rm_interfaces__rosidl_generator_c
+[5.211s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.252s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.262s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.132s] [ 22%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/game_state__type_support.cpp.o[0m
+[6.163s] [ 25%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/chassis_cmd__type_support.cpp.o[0m
+[6.164s] [ 25%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/sentry_cmd__type_support.cpp.o[0m
+[6.214s] [ 26%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/gimbal__type_support.cpp.o[0m
+[6.229s] [ 28%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/gimbal_cmd__type_support.cpp.o[0m
+[6.311s] [ 29%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/shoot_cmd__type_support.cpp.o[0m
+[6.452s] [ 30%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/sentry_cmd__type_support.cpp.o[0m
+[6.456s] [ 32%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/chassis_cmd__type_support.cpp.o[0m
+[6.467s] [ 33%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/game_state__type_support.cpp.o[0m
+[6.492s] [ 35%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/gimbal__type_support.cpp.o[0m
+[6.507s] [ 36%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/shoot_cmd__type_support.cpp.o[0m
+[6.513s] [ 38%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/game_state__type_support.cpp.o[0m
+[6.524s] [ 39%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/gimbal_cmd__type_support.cpp.o[0m
+[7.198s] [ 40%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/game_state__type_support_c.cpp.o[0m
+[7.254s] [ 42%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/sentry_cmd__type_support_c.cpp.o[0m
+[7.299s] [ 43%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/game_state__type_support.cpp.o[0m
+[7.413s] [ 45%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/chassis_cmd__type_support_c.cpp.o[0m
+[7.415s] [ 46%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/sentry_cmd__type_support.cpp.o[0m
+[7.519s] [ 49%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/sentry_cmd__type_support.cpp.o[0m
+[7.519s] [ 49%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/chassis_cmd__type_support.cpp.o[0m
+[7.528s] [ 50%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/chassis_cmd__type_support.cpp.o[0m
+[7.544s] [ 52%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/gimbal__type_support.cpp.o[0m
+[7.604s] [ 53%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/sentry_cmd__type_support.c.o[0m
+[7.604s] [ 54%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/game_state__type_support.c.o[0m
+[7.672s] [ 56%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/gimbal__type_support.cpp.o[0m
+[7.764s] [ 57%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/gimbal_cmd__type_support.cpp.o[0m
+[7.800s] [ 59%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/chassis_cmd__type_support.c.o[0m
+[7.841s] [ 60%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/gimbal_cmd__type_support.cpp.o[0m
+[7.864s] [ 61%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/gimbal__type_support.c.o[0m
+[7.909s] [ 63%] [32m[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.978s] [ 64%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/gimbal_cmd__type_support.c.o[0m
+[8.006s] [ 66%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/shoot_cmd__type_support.cpp.o[0m
+[8.056s] [ 67%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/gimbal__type_support_c.cpp.o[0m
+[8.104s] [ 69%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/shoot_cmd__type_support.cpp.o[0m
+[8.222s] [ 70%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/shoot_cmd__type_support.c.o[0m
+[8.224s] [ 71%] [32m[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_c.so[0m
+[8.287s] [ 73%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/gimbal_cmd__type_support_c.cpp.o[0m
+[8.342s] [ 73%] Built target rm_interfaces__rosidl_typesupport_introspection_cpp
+[8.404s] [ 74%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/shoot_cmd__type_support_c.cpp.o[0m
+[8.437s] [ 76%] [32m[1mLinking C shared library librm_interfaces__rosidl_typesupport_introspection_c.so[0m
+[8.505s] [ 76%] Built target rm_interfaces__rosidl_typesupport_c
+[8.576s] [ 77%] [32m[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.615s] [ 77%] Built target rm_interfaces__rosidl_typesupport_introspection_c
+[8.988s] [ 77%] Built target rm_interfaces__rosidl_typesupport_fastrtps_cpp
+[9.366s] [ 78%] [32m[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.524s] [ 80%] [32m[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_cpp.so[0m
+[9.766s] [ 80%] Built target rm_interfaces__rosidl_typesupport_fastrtps_c
+[9.782s] [ 80%] Built target rm_interfaces__rosidl_typesupport_cpp
+[9.960s] [ 80%] Built target rm_interfaces
+[10.180s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.671s] [ 81%] Built target rm_interfaces__py
+[12.845s] [ 83%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_game_state_s.c.o[0m
+[12.859s] [ 84%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_chassis_cmd_s.c.o[0m
+[12.872s] [ 85%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_sentry_cmd_s.c.o[0m
+[12.892s] [ 87%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_gimbal_s.c.o[0m
+[12.923s] [ 88%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_gimbal_cmd_s.c.o[0m
+[12.951s] [ 90%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_shoot_cmd_s.c.o[0m
+[13.253s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/rm_interfaces/librm_interfaces__rosidl_generator_py.so[0m
+[13.409s] [ 91%] Built target rm_interfaces__rosidl_generator_py
+[13.540s] [ 92%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.544s] [ 94%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[13.560s] [ 95%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.803s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.813s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.896s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.935s] [100%] Built target rm_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[13.989s] [100%] Built target rm_interfaces__rosidl_typesupport_c__pyext
+[14.127s] [100%] Built target rm_interfaces__rosidl_typesupport_introspection_c__pyext
+[14.195s] Invoked command in '/home/sentry_ws/src/build/rm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --build /home/sentry_ws/src/build/rm_interfaces -- -j16 -l16
+[15.789s] Invoking command in '/home/sentry_ws/src/build/rm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --install /home/sentry_ws/src/build/rm_interfaces
+[15.825s] -- Install configuration: ""
+[15.826s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/ament_index/resource_index/rosidl_interfaces/rm_interfaces
+[15.827s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces
+[15.828s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg
+[15.829s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_generator_c__visibility_control.h
+[15.830s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal_cmd.h
+[15.832s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail
+[15.833s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__functions.c
+[15.834s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__functions.c
+[15.836s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__functions.c
+[15.839s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__functions.h
+[15.840s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__type_support.h
+[15.842s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__functions.c
+[15.843s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__functions.h
+[15.844s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__functions.h
+[15.846s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__functions.h
+[15.847s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__functions.h
+[15.848s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__type_support.h
+[15.849s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__struct.h
+[15.850s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__type_support.h
+[15.851s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__type_support.h
+[15.853s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__struct.h
+[15.853s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__functions.c
+[15.855s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__struct.h
+[15.855s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__functions.h
+[15.856s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__struct.h
+[15.856s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__struct.h
+[15.857s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__functions.c
+[15.857s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__type_support.h
+[15.862s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__type_support.h
+[15.862s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__struct.h
+[15.863s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/chassis_cmd.h
+[15.863s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal.h
+[15.863s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/shoot_cmd.h
+[15.864s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/game_state.h
+[15.864s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/sentry_cmd.h
+[15.865s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/environment/library_path.sh
+[15.865s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/environment/library_path.dsv
+[15.866s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_c.so
+[15.866s] -- Set runtime path of "/home/sentry_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_c.so" to ""
+[15.867s] -- Up-to-date: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces
+[15.867s] -- Up-to-date: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg
+[15.867s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.868s] -- Up-to-date: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail
+[15.868s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__rosidl_typesupport_fastrtps_c.h
+[15.868s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__rosidl_typesupport_fastrtps_c.h
+[15.869s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_fastrtps_c.h
+[15.869s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__rosidl_typesupport_fastrtps_c.h
+[15.869s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__rosidl_typesupport_fastrtps_c.h
+[15.870s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__rosidl_typesupport_fastrtps_c.h
+[15.870s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_c.so
+[15.870s] -- Set runtime path of "/home/sentry_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[15.871s] -- Up-to-date: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces
+[15.871s] -- Up-to-date: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg
+[15.871s] -- Up-to-date: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail
+[15.871s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__rosidl_typesupport_introspection_c.h
+[15.871s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__type_support.c
+[15.875s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__type_support.c
+[15.875s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__type_support.c
+[15.875s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__rosidl_typesupport_introspection_c.h
+[15.876s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__rosidl_typesupport_introspection_c.h
+[15.876s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__type_support.c
+[15.876s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__rosidl_typesupport_introspection_c.h
+[15.876s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__type_support.c
+[15.877s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_c.h
+[15.877s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__type_support.c
+[15.877s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__rosidl_typesupport_introspection_c.h
+[15.877s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.878s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_c.so
+[15.878s] -- Set runtime path of "/home/sentry_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[15.878s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_c.so
+[15.879s] -- Set runtime path of "/home/sentry_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_c.so" to ""
+[15.879s] -- Up-to-date: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces
+[15.879s] -- Up-to-date: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg
+[15.879s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal_cmd.hpp
+[15.879s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/shoot_cmd.hpp
+[15.880s] -- Up-to-date: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail
+[15.880s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__traits.hpp
+[15.880s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__builder.hpp
+[15.880s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__builder.hpp
+[15.881s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__traits.hpp
+[15.881s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__builder.hpp
+[15.881s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__struct.hpp
+[15.881s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__struct.hpp
+[15.882s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__struct.hpp
+[15.882s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__traits.hpp
+[15.882s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__builder.hpp
+[15.882s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__builder.hpp
+[15.883s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__struct.hpp
+[15.883s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__builder.hpp
+[15.883s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__struct.hpp
+[15.883s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__traits.hpp
+[15.884s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__struct.hpp
+[15.884s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__traits.hpp
+[15.884s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__traits.hpp
+[15.884s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal.hpp
+[15.884s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/sentry_cmd.hpp
+[15.885s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/game_state.hpp
+[15.885s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/chassis_cmd.hpp
+[15.885s] -- Up-to-date: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces
+[15.885s] -- Up-to-date: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg
+[15.885s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.886s] -- Up-to-date: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail
+[15.886s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[15.886s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/dds_fastrtps
+[15.886s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[15.886s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__rosidl_typesupport_fastrtps_cpp.hpp
+[15.887s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[15.887s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[15.887s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__rosidl_typesupport_fastrtps_cpp.hpp
+[15.887s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[15.888s] -- Set runtime path of "/home/sentry_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.888s] -- Up-to-date: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces
+[15.888s] -- Up-to-date: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg
+[15.888s] -- Up-to-date: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail
+[15.889s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__type_support.cpp
+[15.889s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__rosidl_typesupport_introspection_cpp.hpp
+[15.889s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__rosidl_typesupport_introspection_cpp.hpp
+[15.889s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal__type_support.cpp
+[15.889s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__rosidl_typesupport_introspection_cpp.hpp
+[15.890s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_cpp.hpp
+[15.890s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__rosidl_typesupport_introspection_cpp.hpp
+[15.890s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__type_support.cpp
+[15.890s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/shoot_cmd__type_support.cpp
+[15.891s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/game_state__type_support.cpp
+[15.891s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__type_support.cpp
+[15.891s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/sentry_cmd__rosidl_typesupport_introspection_cpp.hpp
+[15.891s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_cpp.so
+[15.892s] -- Set runtime path of "/home/sentry_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[15.892s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_cpp.so
+[15.893s] -- Set runtime path of "/home/sentry_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_cpp.so" to ""
+[15.893s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/environment/pythonpath.sh
+[15.893s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/environment/pythonpath.dsv
+[15.893s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.1-py3.10.egg-info
+[15.894s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.1-py3.10.egg-info/dependency_links.txt
+[15.894s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.1-py3.10.egg-info/top_level.txt
+[15.894s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.1-py3.10.egg-info/PKG-INFO
+[15.894s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.1-py3.10.egg-info/SOURCES.txt
+[15.895s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces
+[15.895s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/__init__.py
+[15.895s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[15.895s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.895s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.896s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_c.c
+[15.896s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.896s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg
+[15.896s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal.py
+[15.897s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/__init__.py
+[15.897s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_game_state_s.c
+[15.897s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_chassis_cmd.py
+[15.897s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_shoot_cmd.py
+[15.898s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_cmd_s.c
+[15.898s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_cmd.py
+[15.898s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_s.c
+[15.898s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_chassis_cmd_s.c
+[15.898s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_sentry_cmd.py
+[15.899s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_game_state.py
+[15.899s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_shoot_cmd_s.c
+[15.899s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_sentry_cmd_s.c
+[15.899s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.900s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/librm_interfaces__rosidl_generator_py.so
+[15.962s] Listing '/home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces'...
+[15.962s] Compiling '/home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/__init__.py'...
+[15.962s] Listing '/home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg'...
+[15.962s] Compiling '/home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/__init__.py'...
+[15.962s] Compiling '/home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_chassis_cmd.py'...
+[15.962s] Compiling '/home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_game_state.py'...
+[15.962s] Compiling '/home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal.py'...
+[15.962s] Compiling '/home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_cmd.py'...
+[15.962s] Compiling '/home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_sentry_cmd.py'...
+[15.962s] Compiling '/home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_shoot_cmd.py'...
+[15.970s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.972s] -- Set runtime path of "/home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.972s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.973s] -- Set runtime path of "/home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.974s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.974s] -- Set runtime path of "/home/sentry_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.975s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_py.so
+[15.976s] -- Set runtime path of "/home/sentry_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_py.so" to ""
+[15.976s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/msg/GameState.idl
+[15.976s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/msg/SentryCmd.idl
+[15.977s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/msg/ChassisCmd.idl
+[15.977s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/msg/Gimbal.idl
+[15.977s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/msg/GimbalCmd.idl
+[15.978s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/msg/ShootCmd.idl
+[15.978s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/referee/GameState.msg
+[15.979s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/referee/SentryCmd.msg
+[15.979s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/msg/ChassisCmd.msg
+[15.980s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/msg/Gimbal.msg
+[15.980s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/msg/GimbalCmd.msg
+[15.980s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/msg/ShootCmd.msg
+[15.981s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/ament_index/resource_index/package_run_dependencies/rm_interfaces
+[15.981s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/ament_index/resource_index/parent_prefix_path/rm_interfaces
+[15.982s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/environment/ament_prefix_path.sh
+[15.982s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/environment/ament_prefix_path.dsv
+[15.982s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/environment/path.sh
+[15.983s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/environment/path.dsv
+[15.983s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/local_setup.bash
+[15.984s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/local_setup.sh
+[15.984s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/local_setup.zsh
+[15.984s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/local_setup.dsv
+[15.985s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/package.dsv
+[15.985s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/ament_index/resource_index/packages/rm_interfaces
+[15.986s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cExport.cmake
+[15.986s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cExport-noconfig.cmake
+[15.987s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[15.987s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.988s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[15.988s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.988s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cExport.cmake
+[15.989s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[15.996s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cppExport.cmake
+[15.996s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.997s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.997s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[15.998s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.998s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cppExport.cmake
+[15.999s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[15.999s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_pyExport.cmake
+[16.000s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[16.000s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake-extras.cmake
+[16.000s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.001s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.001s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[16.002s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[16.002s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.003s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.003s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfacesConfig.cmake
+[16.003s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfacesConfig-version.cmake
+[16.004s] -- Installing: /home/sentry_ws/src/install/rm_interfaces/share/rm_interfaces/package.xml
+[16.013s] Invoked command in '/home/sentry_ws/src/build/rm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --install /home/sentry_ws/src/build/rm_interfaces

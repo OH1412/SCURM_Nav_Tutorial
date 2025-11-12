@@ -1,0 +1,25 @@
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  2%] Built target ament_cmake_python_copy_rm_interfaces
+running egg_info
+creating rm_interfaces.egg-info
+writing rm_interfaces.egg-info/PKG-INFO
+writing dependency_links to rm_interfaces.egg-info/dependency_links.txt
+writing top-level names to rm_interfaces.egg-info/top_level.txt
+writing manifest file 'rm_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'rm_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'rm_interfaces.egg-info/SOURCES.txt'
+[  2%] Built target ament_cmake_python_build_rm_interfaces_egg
+gmake[2]: *** Deleting file 'rosidl_generator_cpp/rm_interfaces/msg/detail/gimbal_cmd__traits.hpp'
+gmake[2]: *** Deleting file 'rosidl_generator_cpp/rm_interfaces/msg/detail/gimbal_cmd__struct.hpp'
+gmake[2]: *** [CMakeFiles/rm_interfaces__cpp.dir/build.make:240: rosidl_generator_cpp/rm_interfaces/msg/detail/gimbal_cmd__struct.hpp] Interrupt
+gmake[2]: *** [CMakeFiles/rm_interfaces__cpp.dir/build.make:243: rosidl_generator_cpp/rm_interfaces/msg/detail/gimbal_cmd__traits.hpp] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:317: CMakeFiles/rm_interfaces__cpp.dir/all] Interrupt
+gmake[2]: *** Deleting file 'rosidl_generator_c/rm_interfaces/msg/detail/gimbal_cmd__type_support.h'
+gmake[2]: *** Deleting file 'rosidl_generator_c/rm_interfaces/msg/detail/gimbal_cmd__struct.h'
+gmake[2]: *** Deleting file 'rosidl_generator_c/rm_interfaces/msg/detail/gimbal_cmd__functions.h'
+gmake[2]: *** [CMakeFiles/rm_interfaces__rosidl_generator_c.dir/build.make:213: rosidl_generator_c/rm_interfaces/msg/detail/gimbal_cmd__functions.h] Interrupt
+gmake[2]: *** [CMakeFiles/rm_interfaces__rosidl_generator_c.dir/build.make:216: rosidl_generator_c/rm_interfaces/msg/detail/gimbal_cmd__struct.h] Interrupt
+gmake[2]: *** [CMakeFiles/rm_interfaces__rosidl_generator_c.dir/build.make:219: rosidl_generator_c/rm_interfaces/msg/detail/gimbal_cmd__type_support.h] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/rm_interfaces__rosidl_generator_c.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

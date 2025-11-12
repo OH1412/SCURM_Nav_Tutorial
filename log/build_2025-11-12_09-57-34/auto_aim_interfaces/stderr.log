@@ -1,0 +1,6 @@
+gmake[2]: *** [CMakeFiles/auto_aim_interfaces__cpp.dir/build.make:186: rosidl_generator_cpp/auto_aim_interfaces/msg/armor.hpp] Interrupt
+gmake[2]: *** [CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/build.make:155: rosidl_generator_c/auto_aim_interfaces/msg/armor.h] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:317: CMakeFiles/auto_aim_interfaces__cpp.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_copy_auto_aim_interfaces.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

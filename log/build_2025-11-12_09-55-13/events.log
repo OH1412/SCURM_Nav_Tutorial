@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.000402] (-) JobUnselected: {'identifier': 'auto_aim_interfaces'}
+[0.000666] (-) JobUnselected: {'identifier': 'behavior_ext_plugins'}
+[0.000711] (-) JobUnselected: {'identifier': 'behaviortree_cpp'}
+[0.001409] (-) JobUnselected: {'identifier': 'control_panel'}
+[0.001468] (-) JobUnselected: {'identifier': 'costmap_intensity'}
+[0.001527] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.001590] (-) JobUnselected: {'identifier': 'gazebo_dev'}
+[0.001629] (-) JobUnselected: {'identifier': 'gazebo_msgs'}
+[0.001658] (-) JobUnselected: {'identifier': 'gazebo_plugins'}
+[0.001685] (-) JobUnselected: {'identifier': 'gazebo_ros'}
+[0.001759] (-) JobUnselected: {'identifier': 'gazebo_ros_pkgs'}
+[0.001807] (-) JobUnselected: {'identifier': 'icp_relocalization'}
+[0.001881] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.001911] (-) JobUnselected: {'identifier': 'pb_rm_simulation'}
+[0.001950] (-) JobUnselected: {'identifier': 'rm_decision_cpp'}
+[0.001979] (-) JobUnselected: {'identifier': 'rm_interfaces'}
+[0.002031] (-) JobUnselected: {'identifier': 'ros2_livox_simulation'}
+[0.002059] (-) JobUnselected: {'identifier': 'sensor_scan_generation'}
+[0.002085] (-) JobUnselected: {'identifier': 'sentry_bringup'}
+[0.002136] (-) JobUnselected: {'identifier': 'terrain_analysis'}
+[0.002171] (-) JobUnselected: {'identifier': 'terrain_analysis_ext'}
+[0.002197] (-) JobUnselected: {'identifier': 'velocity_smoother_ext'}
+[0.002267] (sentry_waypoint_loader_cpp) JobQueued: {'identifier': 'sentry_waypoint_loader_cpp', 'dependencies': OrderedDict()}
+[0.002303] (sentry_waypoint_loader_cpp) JobStarted: {'identifier': 'sentry_waypoint_loader_cpp'}
+[0.013950] (sentry_waypoint_loader_cpp) JobProgress: {'identifier': 'sentry_waypoint_loader_cpp', 'progress': 'cmake'}
+[0.014477] (sentry_waypoint_loader_cpp) JobProgress: {'identifier': 'sentry_waypoint_loader_cpp', 'progress': 'build'}
+[0.015027] (sentry_waypoint_loader_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sentry_ws/src/build/sentry_waypoint_loader_cpp', '--', '-j16', '-l16'], 'cwd': '/home/sentry_ws/src/build/sentry_waypoint_loader_cpp', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('HOSTNAME', 'ubuntu20'), ('GIT_ASKPASS', '/root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/sentry_ws/src/rm_simulation/pb_rm_simulation/RC_vision_2026/gazebo_for_humble/install/my_gazebo_plugins/lib:/home/sentry_ws/install/velocity_smoother_ext/lib:/home/sentry_ws/install/sentry_waypoint_loader_cpp/lib:/home/sentry_ws/install/ros2_livox_simulation/lib:/home/sentry_ws/install/rm_interfaces/lib:/home/sentry_ws/install/rm_decision_cpp/lib:/home/sentry_ws/install/fast_lio/lib:/home/sentry_ws/install/livox_ros_driver2/lib:/home/sentry_ws/install/gazebo_ros/lib:/home/sentry_ws/install/gazebo_msgs/lib:/home/sentry_ws/install/costmap_intensity/lib:/home/sentry_ws/install/behaviortree_cpp/lib:/home/sentry_ws/install/behavior_ext_plugins/lib:/home/sentry_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/sentry_ws/src/rm_simulation/pb_rm_simulation/RC_vision_2026/gazebo_for_humble/install/my_gazebo_plugins/lib::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('BROWSER', '/root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/sentry_ws'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-bf33ee88-26f5-4701-8ed9-672c081bb49f.sock'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/root/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/sentry_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-f6b9cca3-756c-49e9-9f20-6068cbc0528b.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/root/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/remote-cli:/home/sentry_ws/install/behaviortree_cpp/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-f6b9cca3-756c-49e9-9f20-6068cbc0528b.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/root/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-9d855cf0f4fe003d.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/root/.vscode-server/data/User/workspaceStorage/837ccfe5dfffd322f728eba1304c12e2/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7ecbfa1ca8.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-f6b9cca3-756c-49e9-9f20-6068cbc0528b.sock'), ('AMENT_PREFIX_PATH', '/home/sentry_ws/install/velocity_smoother_ext:/home/sentry_ws/install/terrain_analysis_ext:/home/sentry_ws/install/terrain_analysis:/home/sentry_ws/install/sentry_waypoint_loader_cpp:/home/sentry_ws/install/sentry_bringup:/home/sentry_ws/install/sensor_scan_generation:/home/sentry_ws/install/ros2_livox_simulation:/home/sentry_ws/install/rm_interfaces:/home/sentry_ws/install/rm_decision_cpp:/home/sentry_ws/install/pb_rm_simulation:/home/sentry_ws/install/fast_lio:/home/sentry_ws/install/livox_ros_driver2:/home/sentry_ws/install/icp_relocalization:/home/sentry_ws/install/gazebo_ros:/home/sentry_ws/install/gazebo_msgs:/home/sentry_ws/install/gazebo_dev:/home/sentry_ws/install/costmap_intensity:/home/sentry_ws/install/control_panel:/home/sentry_ws/install/behaviortree_cpp:/home/sentry_ws/install/behavior_ext_plugins:/home/sentry_ws/install/auto_aim_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sentry_ws/src/build/sentry_waypoint_loader_cpp'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/sentry_ws/install/rm_interfaces/local/lib/python3.10/dist-packages:/home/sentry_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/sentry_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/sentry_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/sentry_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:/home/sentry_ws/install/control_panel/lib/python3.10/site-packages:/home/sentry_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sentry_ws/install/velocity_smoother_ext:/home/sentry_ws/install/terrain_analysis_ext:/home/sentry_ws/install/terrain_analysis:/home/sentry_ws/install/sentry_waypoint_loader_cpp:/home/sentry_ws/install/sentry_bringup:/home/sentry_ws/install/sensor_scan_generation:/home/sentry_ws/install/ros2_livox_simulation:/home/sentry_ws/install/rm_interfaces:/home/sentry_ws/install/rm_decision_cpp:/home/sentry_ws/install/pb_rm_simulation:/home/sentry_ws/install/fast_lio:/home/sentry_ws/install/livox_ros_driver2:/home/sentry_ws/install/icp_relocalization:/home/sentry_ws/install/gazebo_ros:/home/sentry_ws/install/gazebo_msgs:/home/sentry_ws/install/gazebo_dev:/home/sentry_ws/install/costmap_intensity:/home/sentry_ws/install/behaviortree_cpp:/home/sentry_ws/install/behavior_ext_plugins:/home/sentry_ws/install/auto_aim_interfaces:/home/sentry_ws/install/control_panel:/opt/ros/humble')]), 'shell': False}
+[0.048666] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099068] (-) TimerEvent: {}
+[0.195409] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199128] (-) TimerEvent: {}
+[0.220409] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.222406] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.227136] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.235470] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.246904] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.287229] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.288676] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299209] (-) TimerEvent: {}
+[0.399416] (-) TimerEvent: {}
+[0.439074] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499530] (-) TimerEvent: {}
+[0.546570] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.5 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.599652] (-) TimerEvent: {}
+[0.607373] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.5 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.633478] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.662619] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.13 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[0.699779] (-) TimerEvent: {}
+[0.800107] (-) TimerEvent: {}
+[0.841204] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'-- Found nav2_waypoint_follower: 1.1.13 (/opt/ros/humble/share/nav2_waypoint_follower/cmake)\n'}
+[0.900210] (-) TimerEvent: {}
+[1.000552] (-) TimerEvent: {}
+[1.037300] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.038298] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.100677] (-) TimerEvent: {}
+[1.201008] (-) TimerEvent: {}
+[1.301341] (-) TimerEvent: {}
+[1.401652] (-) TimerEvent: {}
+[1.502010] (-) TimerEvent: {}
+[1.602666] (-) TimerEvent: {}
+[1.703063] (-) TimerEvent: {}
+[1.803391] (-) TimerEvent: {}
+[1.903729] (-) TimerEvent: {}
+[2.004071] (-) TimerEvent: {}
+[2.104415] (-) TimerEvent: {}
+[2.204771] (-) TimerEvent: {}
+[2.305475] (-) TimerEvent: {}
+[2.405905] (-) TimerEvent: {}
+[2.506264] (-) TimerEvent: {}
+[2.606611] (-) TimerEvent: {}
+[2.706945] (-) TimerEvent: {}
+[2.807292] (-) TimerEvent: {}
+[2.907631] (-) TimerEvent: {}
+[3.007970] (-) TimerEvent: {}
+[3.108295] (-) TimerEvent: {}
+[3.208644] (-) TimerEvent: {}
+[3.309002] (-) TimerEvent: {}
+[3.409332] (-) TimerEvent: {}
+[3.509665] (-) TimerEvent: {}
+[3.610014] (-) TimerEvent: {}
+[3.710341] (-) TimerEvent: {}
+[3.810678] (-) TimerEvent: {}
+[3.911018] (-) TimerEvent: {}
+[4.011348] (-) TimerEvent: {}
+[4.111655] (-) TimerEvent: {}
+[4.211992] (-) TimerEvent: {}
+[4.304285] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.312103] (-) TimerEvent: {}
+[4.398138] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[4.400010] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/sentry_ws/src/build/sentry_waypoint_loader_cpp\n'}
+[4.412235] (-) TimerEvent: {}
+[4.439070] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sentry_waypoint_task_plugin\x1b[0m\n'}
+[4.471784] (sentry_waypoint_loader_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/sentry_waypoint_task_plugin.dir/plugins/sentry_waypoint_task.cpp.o\x1b[0m\n'}
+[4.512371] (-) TimerEvent: {}
+[4.612693] (-) TimerEvent: {}
+[4.713036] (-) TimerEvent: {}
+[4.813369] (-) TimerEvent: {}
+[4.913748] (-) TimerEvent: {}
+[5.014097] (-) TimerEvent: {}
+[5.114434] (-) TimerEvent: {}
+[5.214791] (-) TimerEvent: {}
+[5.315121] (-) TimerEvent: {}
+[5.415459] (-) TimerEvent: {}
+[5.515795] (-) TimerEvent: {}
+[5.616133] (-) TimerEvent: {}
+[5.716446] (-) TimerEvent: {}
+[5.816905] (-) TimerEvent: {}
+[5.917253] (-) TimerEvent: {}
+[6.017597] (-) TimerEvent: {}
+[6.117899] (-) TimerEvent: {}
+[6.218280] (-) TimerEvent: {}
+[6.318664] (-) TimerEvent: {}
+[6.419038] (-) TimerEvent: {}
+[6.421070] (sentry_waypoint_loader_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sentry_ws/src/sentry_waypoint_loader_cpp/plugins/sentry_waypoint_task.cpp:17:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav2\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[6.421340] (sentry_waypoint_loader_cpp) StderrLine: {'line': b'   17 |   const \x1b[01;31m\x1b[Knav2\x1b[m\x1b[K::LifecycleNode::WeakPtr & parent,\n'}
+[6.421489] (sentry_waypoint_loader_cpp) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.421630] (sentry_waypoint_loader_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sentry_ws/src/sentry_waypoint_loader_cpp/plugins/sentry_waypoint_task.cpp:17:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[6.421807] (sentry_waypoint_loader_cpp) StderrLine: {'line': b'   17 |   const nav2::LifecycleNode\x1b[01;31m\x1b[K::\x1b[m\x1b[KWeakPtr & parent,\n'}
+[6.421949] (sentry_waypoint_loader_cpp) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.422087] (sentry_waypoint_loader_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sentry_ws/src/sentry_waypoint_loader_cpp/plugins/sentry_waypoint_task.cpp:17:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[6.422232] (sentry_waypoint_loader_cpp) StderrLine: {'line': b'   17 |   const nav2::LifecycleNode\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KWeakPtr & parent,\n'}
+[6.422365] (sentry_waypoint_loader_cpp) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[6.422499] (sentry_waypoint_loader_cpp) StderrLine: {'line': b'      |                            \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[6.422620] (sentry_waypoint_loader_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sentry_ws/src/sentry_waypoint_loader_cpp/plugins/sentry_waypoint_task.cpp:16:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.422742] (sentry_waypoint_loader_cpp) StderrLine: {'line': b'   16 | void SentryWaypointTask::initialize\x1b[01;36m\x1b[K(\x1b[m\x1b[K\n'}
+[6.422865] (sentry_waypoint_loader_cpp) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.422988] (sentry_waypoint_loader_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sentry_ws/src/sentry_waypoint_loader_cpp/plugins/sentry_waypoint_task.cpp:17:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[6.423113] (sentry_waypoint_loader_cpp) StderrLine: {'line': b'   17 |   const nav2::LifecycleNode\x1b[01;31m\x1b[K::\x1b[m\x1b[KWeakPtr & parent,\n'}
+[6.423233] (sentry_waypoint_loader_cpp) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.519164] (-) TimerEvent: {}
+[6.619539] (-) TimerEvent: {}
+[6.719916] (-) TimerEvent: {}
+[6.820306] (-) TimerEvent: {}
+[6.920702] (-) TimerEvent: {}
+[7.021075] (-) TimerEvent: {}
+[7.111653] (sentry_waypoint_loader_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sentry_waypoint_task_plugin.dir/build.make:76: CMakeFiles/sentry_waypoint_task_plugin.dir/plugins/sentry_waypoint_task.cpp.o] Error 1\n'}
+[7.115291] (sentry_waypoint_loader_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/sentry_waypoint_task_plugin.dir/all] Error 2\n'}
+[7.115520] (sentry_waypoint_loader_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.116040] (sentry_waypoint_loader_cpp) CommandEnded: {'returncode': 2}
+[7.121136] (-) TimerEvent: {}
+[7.193990] (sentry_waypoint_loader_cpp) JobEnded: {'identifier': 'sentry_waypoint_loader_cpp', 'rc': 2}
+[7.204819] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+Invoking command in '/home/sentry_ws/src/build/rm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --build /home/sentry_ws/src/build/rm_interfaces -- -j16 -l16

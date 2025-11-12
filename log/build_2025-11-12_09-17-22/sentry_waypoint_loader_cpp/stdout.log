@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target sentry_waypoint_task_plugin[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/sentry_waypoint_task_plugin.dir/plugins/sentry_waypoint_task.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libsentry_waypoint_task_plugin.so[0m
+[ 50%] Built target sentry_waypoint_task_plugin
+[35m[1mConsolidate compiler generated dependencies of target waypoint_loader[0m
+[ 75%] [32m[1mLinking CXX executable waypoint_loader[0m

@@ -1,0 +1,1 @@
+Invoking command in '/home/sentry_ws/src/build/sensor_scan_generation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake /home/sentry_ws/src/autonomous_exploration_development_environment/src/sensor_scan_generation -DCMAKE_INSTALL_PREFIX=/home/sentry_ws/src/install/sensor_scan_generation

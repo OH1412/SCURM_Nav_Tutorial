@@ -60,11 +60,11 @@ install(TARGETS
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION lib/${PROJECT_NAME}
 )
-install(FILES ./plugin_description/sentry_waypoint_task_plugin.xml
+install(FILES plugin_description/sentry_waypoint_task_plugin.xml
   DESTINATION share/nav2_core/plugins
 )
 pluginlib_export_plugin_description_file(nav2_core 
-  ./plugin_description/sentry_waypoint_task_plugin.xml
+  plugin_description/sentry_waypoint_task_plugin.xml
 )
 
 ament_package()

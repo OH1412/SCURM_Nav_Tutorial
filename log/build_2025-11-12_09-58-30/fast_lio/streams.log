@@ -1,0 +1,177 @@
+[2.989s] Invoking command in '/home/sentry_ws/src/build/fast_lio': AMENT_PREFIX_PATH=/home/sentry_ws/src/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry_ws/src/install/livox_ros_driver2:/home/sentry_ws/install/velocity_smoother_ext:/home/sentry_ws/install/terrain_analysis_ext:/home/sentry_ws/install/terrain_analysis:/home/sentry_ws/install/sentry_waypoint_loader_cpp:/home/sentry_ws/install/sentry_bringup:/home/sentry_ws/install/sensor_scan_generation:/home/sentry_ws/install/ros2_livox_simulation:/home/sentry_ws/install/rm_interfaces:/home/sentry_ws/install/rm_decision_cpp:/home/sentry_ws/install/pb_rm_simulation:/home/sentry_ws/install/fast_lio:/home/sentry_ws/install/livox_ros_driver2:/home/sentry_ws/install/icp_relocalization:/home/sentry_ws/install/gazebo_ros:/home/sentry_ws/install/gazebo_msgs:/home/sentry_ws/install/gazebo_dev:/home/sentry_ws/install/costmap_intensity:/home/sentry_ws/install/behaviortree_cpp:/home/sentry_ws/install/behavior_ext_plugins:/home/sentry_ws/install/auto_aim_interfaces:/home/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/sentry_ws/src/install/livox_ros_driver2/lib:/home/sentry_ws/src/rm_simulation/pb_rm_simulation/RC_vision_2026/gazebo_for_humble/install/my_gazebo_plugins/lib:/home/sentry_ws/install/velocity_smoother_ext/lib:/home/sentry_ws/install/sentry_waypoint_loader_cpp/lib:/home/sentry_ws/install/ros2_livox_simulation/lib:/home/sentry_ws/install/rm_interfaces/lib:/home/sentry_ws/install/rm_decision_cpp/lib:/home/sentry_ws/install/fast_lio/lib:/home/sentry_ws/install/livox_ros_driver2/lib:/home/sentry_ws/install/gazebo_ros/lib:/home/sentry_ws/install/gazebo_msgs/lib:/home/sentry_ws/install/costmap_intensity/lib:/home/sentry_ws/install/behaviortree_cpp/lib:/home/sentry_ws/install/behavior_ext_plugins/lib:/home/sentry_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/sentry_ws/src/rm_simulation/pb_rm_simulation/RC_vision_2026/gazebo_for_humble/install/my_gazebo_plugins/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sentry_ws/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sentry_ws/src/FAST_LIO -DCMAKE_INSTALL_PREFIX=/home/sentry_ws/src/install/fast_lio
+[3.439s] -- The C compiler identification is GNU 11.4.0
+[3.761s] -- The CXX compiler identification is GNU 11.4.0
+[3.808s] -- Detecting C compiler ABI info
+[4.209s] -- Detecting C compiler ABI info - done
+[4.218s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.252s] -- Detecting C compile features
+[4.252s] -- Detecting C compile features - done
+[4.267s] -- Detecting CXX compiler ABI info
+[4.399s] -- Detecting CXX compiler ABI info - done
+[4.408s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.408s] -- Detecting CXX compile features
+[4.409s] -- Detecting CXX compile features - done
+[4.410s] [0mCurrent CPU archtecture: x86_64[0m
+[4.580s] [0mProcesser number:  16[0m
+[4.580s] [0mcore for MP: 3[0m
+[10.017s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[10.564s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[10.769s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[10.907s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[10.978s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[10.989s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[11.003s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[11.021s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.049s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.141s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[11.147s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[13.717s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[13.755s] -- Found FastRTPS: /opt/ros/humble/include  
+[13.822s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.935s] -- Looking for pthread.h
+[14.606s] -- Looking for pthread.h - found
+[14.607s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.064s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.066s] -- Found Threads: TRUE  
+[15.293s] -- Found rclcpp_components: 16.0.5 (/opt/ros/humble/share/rclcpp_components/cmake)
+[16.676s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[16.879s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[17.484s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[17.715s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[17.972s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[18.284s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[18.828s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[18.828s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[18.829s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[19.441s] -- Checking for module 'eigen3'
+[19.461s] --   Found eigen3, version 3.4.0
+[19.502s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[19.502s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[20.604s] -- Checking for module 'flann'
+[20.625s] --   Found flann, version 1.9.1
+[20.679s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[20.679s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[34.607s] -- Checking for module 'libusb-1.0'
+[34.628s] --   Found libusb-1.0, version 1.0.25
+[34.680s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[34.682s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[34.766s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[34.910s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[34.918s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[34.925s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[35.066s] -- Found Qhull version 8.0.2
+[35.207s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[35.337s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[35.338s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[35.338s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[35.339s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[35.339s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[35.340s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[35.340s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[35.340s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[35.341s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[35.342s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[35.342s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[35.343s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[35.343s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[35.344s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[35.345s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[35.345s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[35.346s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[35.346s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[35.347s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[35.348s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[35.348s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[35.348s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[35.349s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[35.350s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[35.351s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[35.361s] -- Found livox_ros_driver2: 1.0.0 (/home/sentry_ws/src/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[35.616s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[35.631s] [33mCMake Warning (dev) at CMakeLists.txt:81 (find_package):
+[35.632s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[35.632s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[35.632s]   command to set the policy and suppress this warning.
+[35.632s] 
+[35.632s]   CMake variable PCL_ROOT is set to:
+[35.632s] 
+[35.632s]     /usr
+[35.632s] 
+[35.633s]   For compatibility, CMake is ignoring the variable.
+[35.633s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[35.633s] [0m
+[35.640s] [0mEigen:/usr/include/eigen3[0m
+[35.640s] -- PCL: /usr/include/pcl-1.12
+[36.070s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[36.480s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[36.610s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[36.697s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[36.735s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[36.764s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[36.764s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[36.764s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[36.764s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[36.785s] -- Found PythonExtra: .so  
+[36.885s] -- Configuring done
+[37.076s] -- Generating done
+[37.089s] -- Build files have been written to: /home/sentry_ws/src/build/fast_lio
+[37.110s] Invoked command in '/home/sentry_ws/src/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/sentry_ws/src/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry_ws/src/install/livox_ros_driver2:/home/sentry_ws/install/velocity_smoother_ext:/home/sentry_ws/install/terrain_analysis_ext:/home/sentry_ws/install/terrain_analysis:/home/sentry_ws/install/sentry_waypoint_loader_cpp:/home/sentry_ws/install/sentry_bringup:/home/sentry_ws/install/sensor_scan_generation:/home/sentry_ws/install/ros2_livox_simulation:/home/sentry_ws/install/rm_interfaces:/home/sentry_ws/install/rm_decision_cpp:/home/sentry_ws/install/pb_rm_simulation:/home/sentry_ws/install/fast_lio:/home/sentry_ws/install/livox_ros_driver2:/home/sentry_ws/install/icp_relocalization:/home/sentry_ws/install/gazebo_ros:/home/sentry_ws/install/gazebo_msgs:/home/sentry_ws/install/gazebo_dev:/home/sentry_ws/install/costmap_intensity:/home/sentry_ws/install/behaviortree_cpp:/home/sentry_ws/install/behavior_ext_plugins:/home/sentry_ws/install/auto_aim_interfaces:/home/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/sentry_ws/src/install/livox_ros_driver2/lib:/home/sentry_ws/src/rm_simulation/pb_rm_simulation/RC_vision_2026/gazebo_for_humble/install/my_gazebo_plugins/lib:/home/sentry_ws/install/velocity_smoother_ext/lib:/home/sentry_ws/install/sentry_waypoint_loader_cpp/lib:/home/sentry_ws/install/ros2_livox_simulation/lib:/home/sentry_ws/install/rm_interfaces/lib:/home/sentry_ws/install/rm_decision_cpp/lib:/home/sentry_ws/install/fast_lio/lib:/home/sentry_ws/install/livox_ros_driver2/lib:/home/sentry_ws/install/gazebo_ros/lib:/home/sentry_ws/install/gazebo_msgs/lib:/home/sentry_ws/install/costmap_intensity/lib:/home/sentry_ws/install/behaviortree_cpp/lib:/home/sentry_ws/install/behavior_ext_plugins/lib:/home/sentry_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/sentry_ws/src/rm_simulation/pb_rm_simulation/RC_vision_2026/gazebo_for_humble/install/my_gazebo_plugins/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sentry_ws/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sentry_ws/src/FAST_LIO -DCMAKE_INSTALL_PREFIX=/home/sentry_ws/src/install/fast_lio
+[37.113s] Invoking command in '/home/sentry_ws/src/build/fast_lio': AMENT_PREFIX_PATH=/home/sentry_ws/src/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry_ws/src/install/livox_ros_driver2:/home/sentry_ws/install/velocity_smoother_ext:/home/sentry_ws/install/terrain_analysis_ext:/home/sentry_ws/install/terrain_analysis:/home/sentry_ws/install/sentry_waypoint_loader_cpp:/home/sentry_ws/install/sentry_bringup:/home/sentry_ws/install/sensor_scan_generation:/home/sentry_ws/install/ros2_livox_simulation:/home/sentry_ws/install/rm_interfaces:/home/sentry_ws/install/rm_decision_cpp:/home/sentry_ws/install/pb_rm_simulation:/home/sentry_ws/install/fast_lio:/home/sentry_ws/install/livox_ros_driver2:/home/sentry_ws/install/icp_relocalization:/home/sentry_ws/install/gazebo_ros:/home/sentry_ws/install/gazebo_msgs:/home/sentry_ws/install/gazebo_dev:/home/sentry_ws/install/costmap_intensity:/home/sentry_ws/install/behaviortree_cpp:/home/sentry_ws/install/behavior_ext_plugins:/home/sentry_ws/install/auto_aim_interfaces:/home/sentry_ws/install/control_panel:/opt/ros/humble LD_LIBRARY_PATH=/home/sentry_ws/src/install/livox_ros_driver2/lib:/home/sentry_ws/src/rm_simulation/pb_rm_simulation/RC_vision_2026/gazebo_for_humble/install/my_gazebo_plugins/lib:/home/sentry_ws/install/velocity_smoother_ext/lib:/home/sentry_ws/install/sentry_waypoint_loader_cpp/lib:/home/sentry_ws/install/ros2_livox_simulation/lib:/home/sentry_ws/install/rm_interfaces/lib:/home/sentry_ws/install/rm_decision_cpp/lib:/home/sentry_ws/install/fast_lio/lib:/home/sentry_ws/install/livox_ros_driver2/lib:/home/sentry_ws/install/gazebo_ros/lib:/home/sentry_ws/install/gazebo_msgs/lib:/home/sentry_ws/install/costmap_intensity/lib:/home/sentry_ws/install/behaviortree_cpp/lib:/home/sentry_ws/install/behavior_ext_plugins/lib:/home/sentry_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/sentry_ws/src/rm_simulation/pb_rm_simulation/RC_vision_2026/gazebo_for_humble/install/my_gazebo_plugins/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sentry_ws/src/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sentry_ws/src/build/fast_lio -- -j16 -l16
+[37.173s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[37.186s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[37.195s] [  5%] Built target ament_cmake_python_copy_fast_lio
+[37.425s] [  8%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_c.dir/rosidl_generator_c/fast_lio/msg/detail/pose6_d__functions.c.o[0m
+[37.437s] [  8%] Built target fast_lio__cpp
+[37.453s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[37.453s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[37.455s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[37.676s] [ 20%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[37.693s] [ 22%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fast_lio/msg/detail/pose6_d__type_support.cpp.o[0m
+[37.699s] [ 25%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fast_lio/msg/detail/dds_fastrtps/pose6_d__type_support.cpp.o[0m
+[38.126s] [ 28%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_cpp.so[0m
+[38.150s] [ 31%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_introspection_cpp.so[0m
+[38.182s] [ 34%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_cpp.so[0m
+[38.464s] [ 34%] Built target fast_lio__rosidl_typesupport_cpp
+[38.464s] [ 34%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[38.492s] [ 37%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o[0m
+[38.493s] [ 40%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o[0m
+[38.497s] [ 42%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o[0m
+[38.681s] [ 42%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[39.659s] running egg_info
+[39.659s] creating fast_lio.egg-info
+[39.659s] writing fast_lio.egg-info/PKG-INFO
+[39.660s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[39.660s] writing top-level names to fast_lio.egg-info/top_level.txt
+[39.660s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[39.662s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[39.663s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[39.706s] [ 42%] Built target ament_cmake_python_build_fast_lio_egg
+[41.438s] [ 45%] [32m[1mLinking C shared library libfast_lio__rosidl_generator_c.so[0m
+[41.501s] [ 45%] Built target fast_lio__rosidl_generator_c
+[41.513s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[41.514s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[41.514s] [ 54%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[41.742s] [ 57%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_c.dir/rosidl_typesupport_c/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[41.755s] [ 60%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fast_lio/msg/detail/pose6_d__type_support.c.o[0m
+[41.772s] [ 62%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fast_lio/msg/detail/pose6_d__type_support_c.cpp.o[0m
+[41.787s] [ 65%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_c.so[0m
+[41.829s] [ 68%] [32m[1mLinking C shared library libfast_lio__rosidl_typesupport_introspection_c.so[0m
+[41.990s] [ 68%] Built target fast_lio__rosidl_typesupport_introspection_c
+[42.416s] [ 68%] Built target fast_lio__rosidl_typesupport_c
+[42.467s] [ 71%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_c.so[0m
+[42.642s] [ 71%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[42.667s] [ 71%] Built target fast_lio
+[42.699s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[43.037s] [ 74%] Built target fast_lio__py
+[43.063s] [ 77%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o[0m
+[43.263s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/libfast_lio__rosidl_generator_py.so[0m
+[43.313s] [ 80%] Built target fast_lio__rosidl_generator_py
+[43.339s] [ 82%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[43.339s] [ 88%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[43.339s] [ 88%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c.o[0m
+[43.575s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[43.585s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[43.601s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[43.641s] [ 97%] Built target fast_lio__rosidl_typesupport_c__pyext
+[43.781s] [ 97%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[43.792s] [ 97%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext

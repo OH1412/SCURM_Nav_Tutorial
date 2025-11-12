@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/velocity_smoother_ext_core.dir/build.make:76: CMakeFiles/velocity_smoother_ext_core.dir/src/velocity_smoother_ext.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/velocity_smoother_ext_core.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

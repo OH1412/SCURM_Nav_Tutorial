@@ -1,0 +1,19 @@
+[01m[K/home/sentry_ws/src/sentry_waypoint_loader_cpp/plugins/sentry_waypoint_task.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knav2[m[K’ does not name a type
+   17 |   const [01;31m[Knav2[m[K::LifecycleNode::WeakPtr & parent,
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/sentry_ws/src/sentry_waypoint_loader_cpp/plugins/sentry_waypoint_task.cpp:17:28:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   17 |   const nav2::LifecycleNode[01;31m[K::[m[KWeakPtr & parent,
+      |                            [01;31m[K^~[m[K
+[01m[K/home/sentry_ws/src/sentry_waypoint_loader_cpp/plugins/sentry_waypoint_task.cpp:17:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   17 |   const nav2::LifecycleNode[01;31m[K:[m[K[32m[K:[m[KWeakPtr & parent,
+      |                            [01;31m[K^[m[K[32m[K~[m[K
+      |                            [32m[K)[m[K
+[01m[K/home/sentry_ws/src/sentry_waypoint_loader_cpp/plugins/sentry_waypoint_task.cpp:16:36:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   16 | void SentryWaypointTask::initialize[01;36m[K([m[K
+      |                                    [01;36m[K^[m[K
+[01m[K/home/sentry_ws/src/sentry_waypoint_loader_cpp/plugins/sentry_waypoint_task.cpp:17:28:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+   17 |   const nav2::LifecycleNode[01;31m[K::[m[KWeakPtr & parent,
+      |                            [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/sentry_waypoint_task_plugin.dir/build.make:76: CMakeFiles/sentry_waypoint_task_plugin.dir/plugins/sentry_waypoint_task.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/sentry_waypoint_task_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

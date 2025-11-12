@@ -1,0 +1,51 @@
+[0.307s] Invoking command in '/home/sentry_ws/src/build/costmap_intensity': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake /home/sentry_ws/src/nav2_plugins/costmap_intensity -DCMAKE_INSTALL_PREFIX=/home/sentry_ws/src/install/costmap_intensity
+[0.392s] -- The C compiler identification is GNU 11.4.0
+[0.462s] -- The CXX compiler identification is GNU 11.4.0
+[0.473s] -- Detecting C compiler ABI info
+[0.566s] -- Detecting C compiler ABI info - done
+[0.576s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.576s] -- Detecting C compile features
+[0.576s] -- Detecting C compile features - done
+[0.581s] -- Detecting CXX compiler ABI info
+[0.726s] -- Detecting CXX compiler ABI info - done
+[0.735s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.736s] -- Detecting CXX compile features
+[0.737s] -- Detecting CXX compile features - done
+[0.746s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.991s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.167s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.257s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.272s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.291s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.317s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.352s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.451s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[1.565s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.571s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.742s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.794s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.874s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.895s] -- Looking for pthread.h
+[2.088s] -- Looking for pthread.h - found
+[2.088s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.226s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.227s] -- Found Threads: TRUE  
+[2.528s] -- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+[2.768s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[2.776s] -- Found nav2_common: 1.1.13 (/opt/ros/humble/share/nav2_common/cmake)
+[2.781s] -- Found nav2_msgs: 1.1.13 (/opt/ros/humble/share/nav2_msgs/cmake)
+[2.948s] -- Found nav2_util: 1.1.13 (/opt/ros/humble/share/nav2_util/cmake)
+[3.279s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.280s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.503s] -- Found nav2_voxel_grid: 1.1.13 (/opt/ros/humble/share/nav2_voxel_grid/cmake)
+[3.512s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[3.552s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[3.574s] -- Found tf2_sensor_msgs: 0.25.3 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[3.607s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.801s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[4.748s] -- Configuring done
+[4.849s] -- Generating done
+[4.889s] -- Build files have been written to: /home/sentry_ws/src/build/costmap_intensity
+[4.952s] Invoked command in '/home/sentry_ws/src/build/costmap_intensity' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake /home/sentry_ws/src/nav2_plugins/costmap_intensity -DCMAKE_INSTALL_PREFIX=/home/sentry_ws/src/install/costmap_intensity
+[4.952s] Invoking command in '/home/sentry_ws/src/build/costmap_intensity': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry_ws/install/control_panel:/opt/ros/humble /usr/bin/cmake --build /home/sentry_ws/src/build/costmap_intensity -- -j16 -l16
+[5.047s] gmake: *** [Makefile:294: cmake_check_build_system] Interrupt
