@@ -7,53 +7,20 @@
 #include <mutex>
 #include <chrono> 
 #include "geometry_msgs/msg/pose_stamped.hpp"
-#include "geometry_msgs/msg/twist.hpp"
-#include "geometry_msgs/msg/twist_stamped.hpp"  
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_action/rclcpp_action.hpp"
 #include "nav2_msgs/action/follow_waypoints.hpp"
-// #include "nav2_msgs/msg/waypoint_task.hpp"   
-#include "nav_msgs/msg/odometry.hpp"
+#include "nav_msgs/msg/map_metadata.hpp"
+#include "lifecycle_msgs/srv/get_state.hpp"
+#include "lifecycle_msgs/msg/state.hpp"
 #include "/home/sentry_ws/src/sentry_waypoint_loader_cpp/include/plugins/sentry_waypoint_task.hpp" 
 #include "/home/sentry_ws/src/sentry_waypoint_loader_cpp/include/common_structs.hpp"
+
 
 namespace sentry_waypoint_loader_cpp {
 
 using FollowWaypoints = nav2_msgs::action::FollowWaypoints;
 using GoalHandleFollow = rclcpp_action::ClientGoalHandle<FollowWaypoints>;
-
-// 任务类型常量
-constexpr const char* TASK_ASCEND_200MM = "ascend_200mm";
-constexpr const char* TASK_ASCEND_400MM = "ascend_400mm";
-constexpr const char* TASK_DELAY_DESCEND_200MM = "delay_descend_200mm";
-constexpr const char* TASK_DELAY_DESCEND_400MM = "delay_descend_400mm";
-
-class SimpleWaypointTaskExecutor {
-public:
-    using TaskFn = std::function<bool()>;
-
-    // 注册任务：name -> 可执行函数
-    void registerTask(const std::string& name, TaskFn fn) {
-        registry_[name] = fn;
-    }
-
-    // 以 nav2_msgs::msg::WaypointTask 格式执行（返回 true/false）
-    bool executeTask(const std::string& task_type) {
-        auto it = registry_.find(task_type);
-        if (it == registry_.end()) {
-            return false;
-        }
-        // 调用注册函数
-        try {
-            return it->second();
-        } catch (...) {
-            return false;
-        }
-    }
-
-private:
-    std::unordered_map<std::string, TaskFn> registry_;
-};
 
 class WaypointLoader : public rclcpp::Node {
 public:
@@ -74,16 +41,11 @@ private:
 
     // 核心成员变量
     rclcpp_action::Client<FollowWaypoints>::SharedPtr follow_action_client_;
-    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr cmd_vel_pub_;
-    rclcpp::Publisher<geometry_msgs::msg::TwistStamped>::SharedPtr vel_pub_;  // 高度控制发布器
     rclcpp::TimerBase::SharedPtr start_timer_;
 
     // 任务执行相关组件
     std::shared_ptr<sentry_waypoint_loader_cpp::SentryWaypointTask> task_plugin_;
-    std::shared_ptr<SimpleWaypointTaskExecutor> task_executor_;
-    rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr height_sub_;  // 订阅里程计（Odometry）
-    double current_z_ = 0.0;  // 当前高度
-
+    // 航点任务存储
     std::map<std::string, geometry_msgs::msg::PoseStamped> all_wp_map_;
     std::vector<geometry_msgs::msg::PoseStamped> waypoints_;
     std::vector<geometry_msgs::msg::PoseStamped> full_waypoints_;
@@ -103,20 +65,10 @@ private:
     void init_components();  // 初始化组件（包含任务执行器初始化）
     void send_nav_goal();    // 发送导航目标
 
-    // // 过渡点动作函数
-    // void execute_transition1_action();  // Z轴上升动作
-    // void execute_transition2_action();  // 延迟动作
-
-    // 任务执行函数
-    bool execute_ascend_200mm();
-    bool execute_ascend_400mm();
-    bool execute_delay_descend_200mm();
-    bool execute_delay_descend_400mm();
-
     // 回调函数
-    void height_callback(const nav_msgs::msg::Odometry::SharedPtr msg);
     void on_start_timer();
     bool wait_for_action_server_with_timeout(const std::chrono::seconds& timeout);
+    bool wait_for_nav2_system_ready();  // 等待Nav2系统就绪
     void goal_response_callback(const GoalHandleFollow::SharedPtr& goal_handle);
     void feedback_callback(GoalHandleFollow::SharedPtr, const std::shared_ptr<const FollowWaypoints::Feedback> feedback);
     void result_callback(const GoalHandleFollow::WrappedResult& result);

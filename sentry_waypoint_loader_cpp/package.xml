@@ -15,6 +15,7 @@
   <depend>rclcpp</depend>                  <!-- C++ 节点基础 -->
   <depend>rclcpp_action</depend>           <!-- 动作客户端依赖 -->
   <depend>nav2_msgs</depend>               <!-- 包含 FollowWaypoints 动作定义 -->
+  <depend>nav_msgs</depend>
   <depend>geometry_msgs</depend>           <!-- 包含 PoseStamped 航点格式 -->
   <depend>lifecycle_msgs</depend>
   <depend>nav2_waypoint_follower</depend>

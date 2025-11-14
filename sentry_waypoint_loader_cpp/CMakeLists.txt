@@ -15,6 +15,7 @@ find_package(rclcpp REQUIRED)
 find_package(rclcpp_action REQUIRED)
 find_package(rclcpp_lifecycle REQUIRED)  # 插件需要的生命周期节点依赖
 find_package(geometry_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 find_package(nav2_msgs REQUIRED)
 find_package(nav2_waypoint_follower REQUIRED)
 find_package(nav2_core REQUIRED)  # Nav2插件核心接口
@@ -22,6 +23,7 @@ find_package(tf2 REQUIRED)
 find_package(yaml-cpp REQUIRED)
 find_package(rclcpp_components REQUIRED)
 find_package(pluginlib REQUIRED)  # 插件加载必需
+find_package(lifecycle_msgs REQUIRED)
 
 add_library(
   sentry_waypoint_task_plugin SHARED
@@ -35,6 +37,12 @@ ament_target_dependencies(sentry_waypoint_task_plugin
   pluginlib
   geometry_msgs
   nav_msgs
+  nav2_msgs
+  lifecycle_msgs
+)
+target_include_directories(sentry_waypoint_task_plugin PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>
 )
 
 add_executable(waypoint_loader src/waypoint_loader.cpp)
@@ -42,15 +50,17 @@ ament_target_dependencies(waypoint_loader
   rclcpp
   rclcpp_action
   geometry_msgs
+  nav_msgs
   nav2_msgs
   nav2_waypoint_follower
   tf2
   yaml-cpp
   rclcpp_components 
+  lifecycle_msgs
 )
 target_link_libraries(waypoint_loader
   yaml-cpp
-  sentry_waypoint_task_plugin  # 链接插件库（若主程序中直接使用插件类）
+  # sentry_waypoint_task_plugin  # 链接插件库（若主程序中直接使用插件类）
 )
 
 install(TARGETS
@@ -61,7 +71,7 @@ install(TARGETS
   RUNTIME DESTINATION lib/${PROJECT_NAME}
 )
 install(FILES plugin_description/sentry_waypoint_task_plugin.xml
-  DESTINATION share/nav2_core/plugins
+  DESTINATION share/${PROJECT_NAME}/plugin_description
 )
 pluginlib_export_plugin_description_file(nav2_core 
   plugin_description/sentry_waypoint_task_plugin.xml
